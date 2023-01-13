@@ -1,0 +1,74 @@
+- name: cvc_rv
+  repo: https://github.com/d-m-bailey/cvc
+  commit: df85a637e83da870129c93c8793cad282bb8ddd1
+  build: |
+    autoreconf -i
+    ./configure --disable-nls --prefix=$PREFIX
+    make clean
+    make -j$(nproc) $READLINE_CXXFLAGS
+    make install
+- name: magic
+  repo: https://github.com/rtimothyedwards/magic
+  commit: 94daf986ab9aa94a9ae2ac3539fa5def9bd2a1ac
+  build: |
+    ./configure --prefix=$PREFIX $MAGIC_CONFIG_OPTS
+    make clean
+    make database/database.h
+    make -j$(nproc)
+    make install
+- name: netgen
+  repo: https://github.com/rtimothyedwards/netgen
+  commit: 2292ab813b54cc6d6fa41368c4e0e7492fb627c9
+  build: |
+    ./configure --prefix=$PREFIX $MAGIC_CONFIG_OPTS
+    make clean
+    make -j$(nproc)
+    make install
+- name: padring
+  repo: https://github.com/donn/padring
+  commit: b2a64abcc8561d758c0bcb3945117dcb13bd9dca
+  build: |
+    bash ./bootstrap.sh
+    cd build
+    ninja clean
+    ninja
+    cp padring $PREFIX/bin
+- name: vlogtoverilog
+  repo: https://github.com/RTimothyEdwards/qflow
+  commit: a550469b63e910ede6e3022e2886bca96462c540
+  build: |
+    # Note that vlogtoverilog is part of the qflow repository.
+    ./configure
+    cd src
+    make clean
+    make -j$(nproc) vlog2Verilog
+    cp vlog2Verilog $PREFIX/bin
+- name: yosys
+  repo: https://github.com/YosysHQ/yosys
+  commit: f109fa3d4c56fe33bc626c298e04d45ae510dd0e
+  build: |
+    make clean
+    make PREFIX=$PREFIX config-gcc
+    make PREFIX=$PREFIX -j$(nproc)
+    make PREFIX=$PREFIX install
+- name: klayout
+  repo: https://github.com/KLayout/klayout
+  commit: 428d0fe8c941faece4eceebc54170cc04d916c03
+  build: ''
+  in_install: false
+- name: openroad_app
+  repo: https://github.com/The-OpenROAD-Project/OpenROAD
+  commit: 7c85c140308f01b73f57ea1117f3e43f39abd437
+  build: ''
+  in_install: false
+- name: git
+  repo: https://github.com/git/git
+  commit: e9d7761bb94f20acc98824275e317fa82436c25d
+  build: ''
+  in_install: false
+- name: open_pdks
+  repo: https://github.com/RTimothyEdwards/open_pdks
+  commit: 35c7265f51749ad8d9fdbb575af22c7c8fab974e
+  build: ''
+  in_install: false
+  pdk: true

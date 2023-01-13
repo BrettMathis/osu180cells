@@ -15,6 +15,9 @@
 # SPDX-License-Identifier: Apache-2.0
 MAKEFLAGS+=--warn-undefined-variables
 
+export OPENLANE_ROOT=$(PWD)/dependencies/openlane_src
+export PDK_ROOT=$(PWD)/dependencies/pdks
+
 export CARAVEL_ROOT?=$(PWD)/caravel
 PRECHECK_ROOT?=${HOME}/mpw_precheck
 export MCW_ROOT?=$(PWD)/mgmt_core_wrapper
