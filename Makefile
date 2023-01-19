@@ -15,12 +15,12 @@
 # SPDX-License-Identifier: Apache-2.0
 MAKEFLAGS+=--warn-undefined-variables
 
-export OPENLANE_ROOT=$(PWD)/dependencies/openlane_src
-export PDK_ROOT=$(PWD)/dependencies/pdks
+export OPENLANE_ROOT=$(shell pwd)/dependencies/openlane_src
+export PDK_ROOT=$(shell pwd)/dependencies/pdks
 
-export CARAVEL_ROOT?=$(PWD)/caravel
+export CARAVEL_ROOT?=$(shell pwd)/caravel
 PRECHECK_ROOT?=${HOME}/mpw_precheck
-export MCW_ROOT?=$(PWD)/mgmt_core_wrapper
+export MCW_ROOT?=$(shell pwd)/mgmt_core_wrapper
 SIM?=RTL
 
 # Install lite version of caravel, (1): caravel-lite, (0): caravel

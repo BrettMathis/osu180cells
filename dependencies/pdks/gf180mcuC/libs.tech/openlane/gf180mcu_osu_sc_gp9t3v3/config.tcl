@@ -27,7 +27,7 @@ set ::env(PL_LIB) $::env(LIB_TYPICAL)
 
 # Fillcell insertion
 set ::env(FILL_CELL) "$::env(STD_CELL_LIBRARY)__fill_*"
-# set ::env(DECAP_CELL) "$::env(STD_CELL_LIBRARY)__fillcap_*"
+ set ::env(DECAP_CELL) "" 
 
 # Diode Insertion
 # A fake diode has to be created, for now don't use any strategy that uses fake diode
@@ -49,3 +49,7 @@ set ::env(FP_PDN_RAIL_WIDTH) 0.6
 
 # The library maximum transition is 8.9ns; setting it to lower value
 set ::env(DEFAULT_MAX_TRAN) 3
+
+
+set ::env(GPL_CELL_PADDING) {0}
+set ::env(DPL_CELL_PADDING) {2}

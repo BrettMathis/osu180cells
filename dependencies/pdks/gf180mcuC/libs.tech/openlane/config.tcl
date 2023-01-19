@@ -16,6 +16,8 @@ if { ![info exist ::env(STD_CELL_LIBRARY_OPT)] } {
 
 # Lib Files
 set ::env(LIB_SYNTH) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)_TT_25C.nldm.lib"
+set ::env(LIB_FASTEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)_TT_25C.nldm.lib"
+set ::env(LIB_SLOWEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)_TT_25C.nldm.lib"
 # set ::env(LIB_FASTEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)__ff_n40C_5v50.lib"
 # set ::env(LIB_SLOWEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)__ss_125C_4v50.lib"
 
@@ -63,15 +65,15 @@ set ::env(RCX_RULES) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/openlane/rcx_rules.
 
 # Floorplanning
 ## Layer Info
-set ::env(FP_IO_HLAYER) "Metal3"
-set ::env(FP_IO_VLAYER) "Metal2"
-set ::env(FP_PDN_RAILS_LAYER) "Metal1"
-set ::env(FP_PDN_LOWER_LAYER) "Metal4"
-set ::env(FP_PDN_UPPER_LAYER) "Metal5"
-set ::env(MACRO_BLOCKAGES_LAYER) "Metal1 Metal2 Metal3 Metal4 Metal5"
-set ::env(WIRE_RC_LAYER) "Metal2"
-set ::env(DATA_WIRE_RC_LAYER) "Metal2"
-set ::env(CLOCK_WIRE_RC_LAYER) "Metal4"
+set ::env(FP_IO_HLAYER) "MET3"
+set ::env(FP_IO_VLAYER) "MET2"
+set ::env(FP_PDN_RAILS_LAYER) "MET1"
+set ::env(FP_PDN_LOWER_LAYER) "MET4"
+set ::env(FP_PDN_UPPER_LAYER) "MET5"
+set ::env(MACRO_BLOCKAGES_LAYER) "MET1 MET2 MET3 MET4 MET5"
+set ::env(WIRE_RC_LAYER) "MET2"
+set ::env(DATA_WIRE_RC_LAYER) "MET2"
+set ::env(CLOCK_WIRE_RC_LAYER) "MET4"
 
 ## Tap Cell Dist
 set ::env(FP_TAPCELL_DIST) 20
@@ -101,10 +103,10 @@ set ::env(RCX_RULES_MIN) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/openlane/rules.
 set ::env(RCX_RULES_MAX) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/openlane/rules.openrcx.$::env(PDK).max"
 
 # Routing
-set ::env(METAL_LAYER_NAMES) "Metal1 Metal2 Metal3 Metal4 Metal5"
-set ::env(RT_MIN_LAYER) "Metal2"
-set ::env(RT_MAX_LAYER) "Metal5"
-set ::env(DRT_MIN_LAYER) "Metal1"
+set ::env(METAL_LAYER_NAMES) "MET1 MET2 MET3 MET4 MET5"
+set ::env(RT_MIN_LAYER) "MET2"
+set ::env(RT_MAX_LAYER) "MET5"
+set ::env(DRT_MIN_LAYER) "MET1"
 set ::env(GRT_LAYER_ADJUSTMENTS) "0,0,0,0,0"
 
 ## Tracks info
@@ -129,11 +131,11 @@ set ::env(NETGEN_SETUP_FILE) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/netgen/$::e
 # # Temporary Override(s) Because OpenROAD can't read techlefs properly
 # # Layer RC Values
 # set ::env(LAYERS_RC) "\
-#     Metal1 0.090000 0.0000394,\
-#     Metal2 0.090000 0.0000394,\
-#     Metal3 0.090000 0.0000394,\
-#     Metal4 0.090000 0.0000394,\
-#     Metal5 0.090000 0.0000394"
+#     MET1 0.090000 0.0000394,\
+#     MET2 0.090000 0.0000394,\
+#     MET3 0.090000 0.0000394,\
+#     MET4 0.090000 0.0000394,\
+#     MET5 0.090000 0.0000394"
 
 # set ::env(VIAS_RC) "\
 #     Via1 4.500,\

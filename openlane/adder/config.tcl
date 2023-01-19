@@ -45,7 +45,7 @@ set ::env(SYNTH_MAX_FANOUT) 4
 # where the PDN is planned on metal 5. So, to avoid having shorts between routes
 # in this macro and the top level metal 5 stripes, we have to restrict routes to metal4.  
 # 
-set ::env(RT_MAX_LAYER) {Metal4}
+set ::env(RT_MAX_LAYER) {MET4}
 
 # You can draw more power domains if you need to 
 set ::env(VDD_NETS) [list {vdd}]
