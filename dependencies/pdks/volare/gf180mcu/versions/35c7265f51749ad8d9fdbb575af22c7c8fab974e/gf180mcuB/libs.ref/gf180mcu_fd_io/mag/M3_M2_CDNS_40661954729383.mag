@@ -1,0 +1,8 @@
+magic
+tech gf180mcuB
+timestamp 1669390400
+<< properties >>
+string GDS_END 2373566
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds
+string GDS_START 2372410
+<< end >>

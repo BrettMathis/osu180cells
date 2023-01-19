@@ -11,13 +11,13 @@ if { ![info exist ::env(STD_CELL_LIBRARY)] } {
     set ::env(STD_CELL_LIBRARY) gf180mcu_fd_sc_mcu7t5v0
 }
 if { ![info exist ::env(STD_CELL_LIBRARY_OPT)] } {
-    set ::env(STD_CELL_LIBRARY_OPT) gf180mcu_fd_sc_mcu7t5v0
+    set ::env(STD_CELL_LIBRARY_OPT) gf180mcu_osu_sc_gp9t3v3
 }
 
 # Lib Files
-set ::env(LIB_SYNTH) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)__tt_025C_5v00.lib"
-set ::env(LIB_FASTEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)__ff_n40C_5v50.lib"
-set ::env(LIB_SLOWEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)__ss_125C_4v50.lib"
+set ::env(LIB_SYNTH) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)_TT_25C.nldm.lib"
+# set ::env(LIB_FASTEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)__ff_n40C_5v50.lib"
+# set ::env(LIB_SLOWEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/liberty/$::env(STD_CELL_LIBRARY)__ss_125C_4v50.lib"
 
 set ::env(LIB_TYPICAL) $::env(LIB_SYNTH)
 
