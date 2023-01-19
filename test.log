@@ -1,0 +1,35 @@
+make -C openlane user_project_wrapper
+make[1]: Entering directory '/home/brettcm/caravel180/osu180cells/openlane'
+# user_project_wrapper
+mkdir -p ./user_project_wrapper/runs/23_01_17_14_38 
+rm -rf ./user_project_wrapper/runs/user_project_wrapper
+ln -s $(realpath ./user_project_wrapper/runs/23_01_17_14_38) ./user_project_wrapper/runs/user_project_wrapper
+docker run -it -v $(realpath /home/brettcm/caravel180/osu180cells/openlane/..):$(realpath /home/brettcm/caravel180/osu180cells/openlane/..) -v /home/brettcm/caravel180/osu180cells/dependencies/pdks:/home/brettcm/caravel180/osu180cells/dependencies/pdks -v /home/brettcm/caravel180/osu180cells/caravel:/home/brettcm/caravel180/osu180cells/caravel -v /home/brettcm/caravel180/osu180cells/dependencies/openlane_src:/openlane -v /home/brettcm/caravel180/osu180cells/mgmt_core_wrapper:/home/brettcm/caravel180/osu180cells/mgmt_core_wrapper -e PDK_ROOT=/home/brettcm/caravel180/osu180cells/dependencies/pdks -e PDK=gf180mcuC -e MISMATCHES_OK=1 -e CARAVEL_ROOT=/home/brettcm/caravel180/osu180cells/caravel -e OPENLANE_RUN_TAG=23_01_17_14_38 -e MCW_ROOT=/home/brettcm/caravel180/osu180cells/mgmt_core_wrapper -u 0:0 \
+	efabless/openlane:2022.11.29 sh -c "flow.tcl -design $(realpath ./user_project_wrapper) -save_path $(realpath ..) -save -tag 23_01_17_14_38 -overwrite -ignore_mismatches"
+OpenLane 235fa7a4a2872e779588919c58fc4fa32568e075
+All rights reserved. (c) 2020-2022 Efabless Corporation and contributors.
+Available under the Apache License, version 2.0. See the LICENSE file for more details.
+
+LD_LIBRARY_PATH /build//lib:/build//lib/Linux-x86_64: OPENROAD /build/ HOME /root MANPATH /build//share/man: OPENLANE_RUN_TAG 23_01_17_14_38 CARAVEL_ROOT /home/brettcm/caravel180/osu180cells/caravel MCW_ROOT /home/brettcm/caravel180/osu180cells/mgmt_core_wrapper LANG en_US.UTF-8 PDK_ROOT /home/brettcm/caravel180/osu180cells/dependencies/pdks PWD /openlane SCRIPTS_DIR /openlane/scripts OPENLANE_VERSION 235fa7a4a2872e779588919c58fc4fa32568e075 MISMATCHES_OK 1 OPENROAD_BIN openroad TERM xterm SHLVL 1 LC_CTYPE en_US.UTF-8 OPENLANE_ROOT /openlane PATH /openlane:/openlane/scripts:/build//bin:/build//bin/Linux-x86_64:/build//pdn/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin _ /openlane/flow.tcl HOSTNAME 95c556a84811 LC_ALL en_US.UTF-8 PDK gf180mcuC
+[36m[INFO]: Using configuration in '../home/brettcm/caravel180/osu180cells/openlane/user_project_wrapper/config.tcl'...[39m
+[36m[INFO]: PDK Root: /home/brettcm/caravel180/osu180cells/dependencies/pdks[39m
+[36m[INFO]: Process Design Kit: gf180mcuC[39m
+[36m[INFO]: Standard Cell Library: gf180mcu_osu_sc_9T[39m
+[36m[INFO]: Optimization Standard Cell Library: gf180mcu_fd_sc_mcu7t5v0[39m
+couldn't read file "/home/brettcm/caravel180/osu180cells/dependencies/pdks/gf180mcuC/libs.tech/openlane/gf180mcu_osu_sc_9T/config.tcl": no such file or directory
+    while executing
+"source $scl_config"
+    (procedure "prep" line 187)
+    invoked from within
+"prep {*}$args"
+    (procedure "run_non_interactive_mode" line 12)
+    invoked from within
+"run_non_interactive_mode {*}$argv"
+    invoked from within
+"if { [info exists flags_map(-interactive)] || [info exists flags_map(-it)] } {
+    if { [info exists arg_values(-file)] } {
+        run_file [file nor..."
+    (file "/openlane/flow.tcl" line 411)
+Makefile:69: recipe for target 'user_project_wrapper' failed
+make[1]: Leaving directory '/home/brettcm/caravel180/osu180cells/openlane'
+Makefile:112: recipe for target 'user_project_wrapper' failed
