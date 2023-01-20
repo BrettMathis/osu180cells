@@ -20,9 +20,9 @@
 
 .option scale=0.05u
 
-.subckt gf180mcu_osu_sc_gp12t3v3__tielo Y
-X0 a_19_14 a_19_14 VDD VDD pmos_3p3 w=34 l=6
-X1 Y a_19_14 VSS VSS nmos_3p3 w=17 l=6
+.subckt gf180mcu_osu_sc_gp9t3v3__tieh Y
+X0 a_19_14 a_19_14 VSS VSS nmos_3p3 w=17 l=6
+X1 Y a_19_14 VDD VDD pmos_3p3 w=34 l=6
 .ends
 
 ** hspice subcircuit dictionary

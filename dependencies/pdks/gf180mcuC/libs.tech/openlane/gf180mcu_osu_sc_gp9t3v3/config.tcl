@@ -19,15 +19,15 @@ set ::env(SYNTH_CLK_DRIVING_CELL_PIN) "Y"
 # update these
 set ::env(SYNTH_CAP_LOAD) "72.91" ; # femtofarad from pin I in liberty file
 set ::env(SYNTH_MIN_BUF_PORT) "$::env(STD_CELL_LIBRARY)__buf_1 A Y"
-set ::env(SYNTH_TIEHI_PORT) "$::env(STD_CELL_LIBRARY)__tiehi Y"
-set ::env(SYNTH_TIELO_PORT) "$::env(STD_CELL_LIBRARY)__tielo Y"
+set ::env(SYNTH_TIEHI_PORT) "$::env(STD_CELL_LIBRARY)__tieh Y"
+set ::env(SYNTH_TIELO_PORT) "$::env(STD_CELL_LIBRARY)__tiel Y"
 
 # Placement defaults
 set ::env(PL_LIB) $::env(LIB_TYPICAL)
 
 # Fillcell insertion
 set ::env(FILL_CELL) "$::env(STD_CELL_LIBRARY)__fill_*"
- set ::env(DECAP_CELL) "" 
+set ::env(DECAP_CELL) "" 
 
 # Diode Insertion
 # A fake diode has to be created, for now don't use any strategy that uses fake diode

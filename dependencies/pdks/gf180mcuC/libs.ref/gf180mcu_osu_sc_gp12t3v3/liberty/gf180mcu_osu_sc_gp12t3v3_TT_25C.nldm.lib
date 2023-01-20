@@ -1,7 +1,7 @@
 library (gf180mcu_osu_sc_gp12t3v3_TT_25C.nldm) {
-  /* Models written by Liberate 19.2.2.189 from Cadence Design Systems, Inc. on Fri Jan 13 13:31:39 CST 2023 */
+  /* Models written by Liberate 19.2.2.189 from Cadence Design Systems, Inc. on Thu Jan 19 17:53:40 CST 2023 */
   comment : "";
-  date : "$Date: Fri Jan 13 12:08:48 2023 $";
+  date : "$Date: Thu Jan 19 16:21:48 2023 $";
   revision : "1.0";
   delay_model : table_lookup;
   capacitive_load_unit (1,pf);
@@ -32783,7 +32783,7 @@ library (gf180mcu_osu_sc_gp12t3v3_TT_25C.nldm) {
       }
     }
   }
-  cell (gf180mcu_osu_sc_gp12t3v3__tiehi) {
+  cell (gf180mcu_osu_sc_gp12t3v3__tieh) {
     area : 17.82;
     cell_leakage_power : 0;
     pg_pin (VDD) {
@@ -32821,7 +32821,7 @@ library (gf180mcu_osu_sc_gp12t3v3_TT_25C.nldm) {
       max_capacitance : 3.44214;
     }
   }
-  cell (gf180mcu_osu_sc_gp12t3v3__tielo) {
+  cell (gf180mcu_osu_sc_gp12t3v3__tiel) {
     area : 17.82;
     cell_leakage_power : 0;
     pg_pin (VDD) {

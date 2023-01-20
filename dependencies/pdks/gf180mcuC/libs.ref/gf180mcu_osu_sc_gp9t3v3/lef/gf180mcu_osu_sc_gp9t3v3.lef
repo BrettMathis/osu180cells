@@ -3762,10 +3762,10 @@ MACRO gf180mcu_osu_sc_gp9t3v3__tbuf_1
   END
 END gf180mcu_osu_sc_gp9t3v3__tbuf_1
 
-MACRO gf180mcu_osu_sc_gp9t3v3__tiehi
+MACRO gf180mcu_osu_sc_gp9t3v3__tieh
   CLASS CORE ;
   ORIGIN 0 0 ;
-  FOREIGN gf180mcu_osu_sc_gp9t3v3__tiehi 0 0 ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__tieh 0 0 ;
   SIZE 2.2 BY 6.15 ;
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
@@ -3806,12 +3806,12 @@ MACRO gf180mcu_osu_sc_gp9t3v3__tiehi
       RECT 1.15 2.2 1.65 2.45 ;
       RECT 1.4 0.95 1.65 2.45 ;
   END
-END gf180mcu_osu_sc_gp9t3v3__tiehi
+END gf180mcu_osu_sc_gp9t3v3__tieh
 
-MACRO gf180mcu_osu_sc_gp9t3v3__tielo
+MACRO gf180mcu_osu_sc_gp9t3v3__tiel
   CLASS CORE ;
   ORIGIN 0 0 ;
-  FOREIGN gf180mcu_osu_sc_gp9t3v3__tielo 0 0 ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__tiel 0 0 ;
   SIZE 2.2 BY 6.15 ;
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
@@ -3852,7 +3852,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__tielo
       RECT 1.4 2.9 1.65 5.2 ;
       RECT 1.15 2.9 1.65 3.15 ;
   END
-END gf180mcu_osu_sc_gp9t3v3__tielo
+END gf180mcu_osu_sc_gp9t3v3__tiel
 
 MACRO gf180mcu_osu_sc_gp9t3v3__tinv_1
   CLASS CORE ;
