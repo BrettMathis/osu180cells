@@ -678,14 +678,16 @@ rect 123 33 213 34
 rect 123 31 198 33
 rect 116 30 124 31
 << labels >>
-rlabel metal2 43 73 43 73 1 D
-port 1 n
-rlabel nsubdiffcont 13 154 13 154 1 VDD
-rlabel psubdiffcont 13 7 13 7 1 VSS
 rlabel metal2 273 99 273 99 1 Q
-port 4 n
+port 1 n
 rlabel metal2 258 86 258 86 1 QN
-port 6 n
+port 2 n
+rlabel metal2 43 73 43 73 1 D
+port 3 n
 rlabel metal2 195 60 195 60 1 CLK
-port 7 n
+port 4 n
+rlabel nsubdiffcont 13 154 13 154 1 VDD
+port 5 n
+rlabel psubdiffcont 13 7 13 7 1 VSS
+port 6 n
 << end >>
