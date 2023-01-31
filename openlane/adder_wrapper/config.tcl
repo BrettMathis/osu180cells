@@ -50,15 +50,15 @@ set ::env(MACRO_PLACEMENT_CFG) $::env(DESIGN_DIR)/macro.cfg
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/user_proj_example.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/designs/adder/src/adder.v"
 
 set ::env(EXTRA_LEFS) "\
-	$::env(DESIGN_DIR)/../../lef/user_proj_example.lef"
+	$::env(DESIGN_DIR)/../../lef/adder.lef"
 
 set ::env(EXTRA_GDS_FILES) "\
-	$::env(DESIGN_DIR)/../../gds/user_proj_example.gds"
+	$::env(DESIGN_DIR)/../../gds/adder.gds"
 
-set ::env(RT_MAX_LAYER) {Metal4}
+set ::env(RT_MAX_LAYER) {MET4}
 
 # disable pdn check nodes becuase it hangs with multiple power domains.
 # any issue with pdn connections will be flagged with LVS so it is not a critical check.
