@@ -190,7 +190,7 @@ contact
   via1 metal1 metal2
   via2 metal2 metal3
   via3 metal3 metal4
-  via4  metal4 metal5
+  via4 metal4 metal5
 
   mimcc mimcap metal5
   stackable
@@ -2668,10 +2668,10 @@ lef
  routing m4	Metal4 METAL4 MET4 m4 met4 metal4
  routing m5	Metal5 METAL5 MET5 m5 met5 metal5
 
- cut m2c  Via1 VIA1 via1 cont2 via12
- cut m3c  Via2 VIA2 via2 cont3 via23
- cut via3 Via3 VIA3 via3 cont4 via34
- cut via4 Via4 VIA4 via4 cont5 via45
+ cut m2c  Via1 VIA1 via1 cont2 via12 VIA12
+ cut m3c  Via2 VIA2 via2 cont3 via23 VIA23
+ cut via3 Via3 VIA3 via3 cont4 via34 VIA34
+ cut via4 Via4 VIA4 via4 cont5 via45 VIA45
 
  obs obsm1   Metal1
  obs obsm2   Metal2

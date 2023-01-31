@@ -47,16 +47,16 @@ if {[catch {set MAGTYPE $env(MAGTYPE)}]} {
 # add path to reference cells
 if {[file isdir ${PDK_ROOT}/gf180mcuC/libs.ref/${MAGTYPE}]} {
     addpath ${PDK_ROOT}/gf180mcuC/libs.ref/${MAGTYPE}/gf180mcu_fd_pr
-    addpath ${PDK_ROOT}/gf180mcuC/libs.ref/${MAGTYPE}/gf180mcu_mcu7t5v0
-    addpath ${PDK_ROOT}/gf180mcuC/libs.ref/${MAGTYPE}/gf180mcu_mcu9t5v0
     addpath ${PDK_ROOT}/gf180mcuC/libs.ref/${MAGTYPE}/gf180mcu_fd_io
     addpath ${PDK_ROOT}/gf180mcuC/libs.ref/${MAGTYPE}/gf180mcu_fd_ip_sram
+    addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/${MAGTYPE}
+    addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp12t3v3/${MAGTYPE}
 } else {
     addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_fd_pr/${MAGTYPE}
-    addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/${MAGTYPE}
-    addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu9t5v0/${MAGTYPE}
     addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_fd_io/${MAGTYPE}
     addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_fd_ip_sram/${MAGTYPE}
+    addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/${MAGTYPE}
+    addpath ${PDK_ROOT}/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp12t3v3/${MAGTYPE}
 }
 
 # add path to IP from catalog.  This procedure defined in the PDK script.

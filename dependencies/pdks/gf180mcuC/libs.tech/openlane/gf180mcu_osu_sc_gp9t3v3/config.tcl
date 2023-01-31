@@ -53,3 +53,9 @@ set ::env(DEFAULT_MAX_TRAN) 3
 
 set ::env(GPL_CELL_PADDING) {0}
 set ::env(DPL_CELL_PADDING) {2}
+
+#set ::env(FP_PDN_VPITCH) {180}
+#set ::env(FP_PDN_VWIDTH) {9}
+
+set ::env(RUN_TAP_DECAP_INSERTION) {0}
+#set ::env(FP_PDN_UPPER_LAYER) {MET3}
