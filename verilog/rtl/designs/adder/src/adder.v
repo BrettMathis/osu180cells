@@ -1,6 +1,11 @@
 
 module adder(
 
+	`ifdef USE_POWER_PINS
+		inout vdd,	// User area 1 1.8V supply
+		inout vss,	// User area 1 digital ground
+	`endif
+
 	input [7:0] a_in,
 	input [7:0] b_in,
 	output [7:0] sum

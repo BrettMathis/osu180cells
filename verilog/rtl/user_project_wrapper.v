@@ -107,21 +107,24 @@ module user_project_wrapper #(
 );
 */
 
-gcd dut (
-`ifdef USE_POWER_PINS
-	.vdd(vdd),
-	.vss(vss),
-`endif
-    //Using only IO pins & wbs for GCD
+adder dut (
+    `ifdef USE_POWER_PINS
+        .vdd(vdd),
+        .vss(vss),
+    `endif
 
-    .clk(wb_clk_i),
-    .req_msg(wbs_dat_i[31:0]),
-    .req_rdy(io_out[18]),
-    .req_val(wbs_sel_i[0]),
-    .reset(wb_rst_i),
-    .resp_msg(io_out[15:0]),
-    .resp_rdy(wbs_sel_i[1]),
-    .resp_val(io_out[17])
+    //Using only IO pins & wbs for adder
+    .a_in(wbs_dat_i[7:0]), 
+    .b_in(wbs_dat_i[15:8]),
+    .sum(io_out[7:0])
+
+    // .req_msg(wbs_dat_i[31:0]),
+    // .req_rdy(io_out[18]),
+    // .req_val(wbs_sel_i[0]),
+    // .reset(wb_rst_i),
+    // .resp_msg(io_out[15:0]),
+    // .resp_rdy(wbs_sel_i[1]),
+    // .resp_val(io_out[17])
 );
 
 endmodule	// user_project_wrapper
