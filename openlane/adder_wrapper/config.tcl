@@ -23,7 +23,7 @@ set ::env(STD_CELL_LIBRARY) "gf180mcu_osu_sc_gp9t3v3"
 # YOU CAN CHANGE ANY VARIABLES DEFINED IN THE DEFAULT WRAPPER CFGS BY OVERRIDING THEM IN THIS CONFIG.TCL
 source $::env(DESIGN_DIR)/fixed_dont_change/default_wrapper_cfgs.tcl
 
-set ::env(DESIGN_NAME) user_project_wrapper
+set ::env(DESIGN_NAME) adder_wrapper
 #section end
 
 # User Configurations
@@ -31,7 +31,7 @@ set ::env(DESIGN_NAME) user_project_wrapper
 ## Source Verilog Files
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/user_project_wrapper.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/designs/adder/src/adder_wrapper.v"
 
 ## Clock configurations
 set ::env(CLOCK_PORT) "user_clock2"

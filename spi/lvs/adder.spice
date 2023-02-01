@@ -1,0 +1,7 @@
+* NGSPICE file created from adder.ext - technology: gf180mcuC
+
+.subckt adder a_in[0] a_in[1] a_in[2] a_in[3] a_in[4] a_in[5] a_in[6] a_in[7] b_in[0]
++ b_in[1] b_in[2] b_in[3] b_in[4] b_in[5] b_in[6] b_in[7] sum[0] sum[1] sum[2] sum[3]
++ sum[4] sum[5] sum[6] sum[7] vdd vss
+.ends
+
