@@ -1,0 +1,288 @@
+library (ffra) {
+  comment                        : "";
+  delay_model                    : table_lookup;
+  simulation                     : false;
+  capacitive_load_unit (1,pF);
+  leakage_power_unit             : 1pW;
+  current_unit                   : "1A";
+  pulling_resistance_unit        : "1kohm";
+  time_unit                      : "1ns";
+  voltage_unit                   : "1v";
+  library_features(report_delay_calculation);
+
+  input_threshold_pct_rise : 50;
+  input_threshold_pct_fall : 50;
+  output_threshold_pct_rise : 50;
+  output_threshold_pct_fall : 50;
+  slew_lower_threshold_pct_rise : 20;
+  slew_lower_threshold_pct_fall : 20;
+  slew_upper_threshold_pct_rise : 80;
+  slew_upper_threshold_pct_fall : 80;
+  slew_derate_from_library : 1.0;
+
+
+  nom_process                    : 1.0;
+  nom_temperature                : 25.0;
+  nom_voltage                    : 3.30;
+
+  type ("a") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 8;
+    bit_from : 7;
+    bit_to : 0;
+  }
+  type ("b") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 8;
+    bit_from : 7;
+    bit_to : 0;
+  }
+  type ("ci") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 16;
+    bit_from : 15;
+    bit_to : 0;
+  }
+  type ("o") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 16;
+    bit_from : 15;
+    bit_to : 0;
+  }
+
+  cell ("ffra") {
+    pin("clk") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("rst") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("vdd") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("vss") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    bus("a") {
+      bus_type : a;
+      direction : input;
+      capacitance : 0.0000;
+    pin("a[7]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("a[6]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("a[5]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("a[4]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("a[3]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("a[2]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("a[1]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("a[0]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    }
+    bus("b") {
+      bus_type : b;
+      direction : input;
+      capacitance : 0.0000;
+    pin("b[7]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("b[6]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("b[5]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("b[4]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("b[3]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("b[2]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("b[1]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("b[0]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    }
+    bus("ci") {
+      bus_type : ci;
+      direction : input;
+      capacitance : 0.0000;
+    pin("ci[15]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[14]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[13]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[12]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[11]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[10]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[9]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[8]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[7]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[6]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[5]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[4]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[3]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[2]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[1]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    pin("ci[0]") {
+      direction : input;
+      capacitance : 0.0000;
+    }
+    }
+    bus("o") {
+      bus_type : o;
+      direction : output;
+      capacitance : 0.0000;
+    pin("o[15]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[14]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[13]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[12]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[11]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[10]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[9]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[8]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[7]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[6]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[5]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[4]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[3]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[2]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[1]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[0]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    }
+  }
+
+}
