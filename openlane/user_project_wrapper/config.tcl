@@ -17,7 +17,7 @@
 # section begin
 
 set ::env(PDK) "gf180mcuC"
-#set ::env(STD_CELL_LIBRARY) "gf180mcu_fd_sc_mcu7t5v0"
+# set ::env(STD_CELL_LIBRARY) "gf180mcu_osu_sc_9T"
 set ::env(STD_CELL_LIBRARY) "gf180mcu_osu_sc_gp9t3v3"
 
 # YOU CAN CHANGE ANY VARIABLES DEFINED IN THE DEFAULT WRAPPER CFGS BY OVERRIDING THEM IN THIS CONFIG.TCL

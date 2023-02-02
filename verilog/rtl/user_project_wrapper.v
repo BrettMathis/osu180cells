@@ -70,7 +70,7 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-/*user_proj_example mprj (
+user_proj_example mprj (
 `ifdef USE_POWER_PINS
 	.vdd(vdd),	// User area 1 1.8V power
 	.vss(vss),	// User area 1 digital ground
@@ -105,24 +105,7 @@ module user_project_wrapper #(
     // IRQ
     .irq(user_irq)
 );
-*/
 
-gcd dut (
-`ifdef USE_POWER_PINS
-	.vdd(vdd),
-	.vss(vss),
-`endif
-    //Using only IO pins & wbs for GCD
-
-    .clk(wb_clk_i),
-    .req_msg(wbs_dat_i[31:0]),
-    .req_rdy(io_out[18]),
-    .req_val(wbs_sel_i[0]),
-    .reset(wb_rst_i),
-    .resp_msg(io_out[15:0]),
-    .resp_rdy(wbs_sel_i[1]),
-    .resp_val(io_out[17])
-);
 
 endmodule	// user_project_wrapper
 
