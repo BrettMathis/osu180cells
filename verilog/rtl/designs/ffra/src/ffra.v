@@ -19,7 +19,7 @@ module ffra
 	o_tmp[3] = o_tmp[2];
 	o_tmp[2] = o_tmp[1];
 	o_tmp[1] = o_tmp[0];
-	o_tmp[0] = (a * b) + c;
+	o_tmp[0] = (a * b) + ci;
     end
 
     assign o = o_tmp[3];
