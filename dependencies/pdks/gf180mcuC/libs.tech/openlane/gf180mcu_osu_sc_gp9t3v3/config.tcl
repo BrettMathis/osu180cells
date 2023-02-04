@@ -45,17 +45,17 @@ set ::env(CTS_ROOT_BUFFER) "$::env(STD_CELL_LIBRARY)__clkbuf_16"
 set ::env(CTS_CLK_BUFFER_LIST) "$::env(STD_CELL_LIBRARY)__clkbuf_2 $::env(STD_CELL_LIBRARY)__clkbuf_4 $::env(STD_CELL_LIBRARY)__clkbuf_8"
 set ::env(CTS_MAX_CAP) 0.5
 
-set ::env(FP_PDN_RAIL_WIDTH) 0.6
+set ::env(FP_PDN_RAIL_WIDTH) 0.0
 
 # The library maximum transition is 8.9ns; setting it to lower value
 set ::env(DEFAULT_MAX_TRAN) 3
 
 
 set ::env(GPL_CELL_PADDING) {0}
-set ::env(DPL_CELL_PADDING) {2}
+set ::env(DPL_CELL_PADDING) {0}
 
 #set ::env(FP_PDN_VPITCH) {180}
-#set ::env(FP_PDN_VWIDTH) {9}
+set ::env(FP_PDN_HWIDTH) {0}
 
 set ::env(RUN_TAP_DECAP_INSERTION) {0}
 #set ::env(FP_PDN_UPPER_LAYER) {MET3}

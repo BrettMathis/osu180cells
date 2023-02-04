@@ -79,19 +79,21 @@ set ::env(CLOCK_WIRE_RC_LAYER) "MET4"
 set ::env(FP_TAPCELL_DIST) 20
 
 ## Extra PDN configs
+set ::env(FP_PDN_HWIDTH) 0
+
 
 ## via resistance are missing from the tlef causing irdrop to fai
 set ::env(RUN_IRDROP_REPORT) 0
 
 set ::env(FP_PDN_RAIL_OFFSET) 0
 set ::env(FP_PDN_VWIDTH) 1.6
-set ::env(FP_PDN_HWIDTH) 1.6
+set ::env(FP_PDN_HWIDTH) 0.0
 set ::env(FP_PDN_VSPACING) 1.7
 set ::env(FP_PDN_HSPACING) 1.7
 
 ## Core Ring PDN defaults
 set ::env(FP_PDN_CORE_RING_VWIDTH) 1.6
-set ::env(FP_PDN_CORE_RING_HWIDTH) 1.6
+set ::env(FP_PDN_CORE_RING_HWIDTH) 0.0
 set ::env(FP_PDN_CORE_RING_VSPACING) 1.7
 set ::env(FP_PDN_CORE_RING_HSPACING) 1.7
 set ::env(FP_PDN_CORE_RING_VOFFSET) 6

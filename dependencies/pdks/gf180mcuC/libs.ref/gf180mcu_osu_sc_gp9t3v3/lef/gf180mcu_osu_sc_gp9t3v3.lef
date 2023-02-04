@@ -2891,9 +2891,9 @@ END gf180mcu_osu_sc_gp9t3v3__inv_8
 
 MACRO gf180mcu_osu_sc_gp9t3v3__lshifdown
   CLASS CORE ;
-  ORIGIN 0 0 ;
-  FOREIGN gf180mcu_osu_sc_gp9t3v3__lshifdown 0 0 ;
-  SIZE 4.6 BY 6.15 ;
+  ORIGIN 0.05 0 ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__lshifdown -0.05 0 ;
+  SIZE 5.3 BY 6.15 ;
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN VDD
@@ -2902,9 +2902,8 @@ MACRO gf180mcu_osu_sc_gp9t3v3__lshifdown
     SHAPE ABUTMENT ;
     PORT
       LAYER MET1 ;
-        RECT 0 5.55 4.6 6.15 ;
-        RECT 2.85 3.5 3.15 6.15 ;
-        RECT 0.55 3.5 0.85 6.15 ;
+        RECT -0.05 5.55 5.25 6.15 ;
+        RECT 3.15 3.5 3.45 6.15 ;
     END
   END VDD
   PIN VSS
@@ -2912,9 +2911,9 @@ MACRO gf180mcu_osu_sc_gp9t3v3__lshifdown
     USE GROUND ;
     PORT
       LAYER MET1 ;
-        RECT 0 0 4.6 0.6 ;
-        RECT 2.85 0 3.15 1.8 ;
-        RECT 0.55 0 0.85 1.8 ;
+        RECT -0.05 0 5.25 0.6 ;
+        RECT 3.15 0 3.45 1.8 ;
+        RECT 0.85 0 1.15 1.8 ;
     END
   END VSS
   PIN A
@@ -2922,11 +2921,11 @@ MACRO gf180mcu_osu_sc_gp9t3v3__lshifdown
     USE SIGNAL ;
     PORT
       LAYER MET1 ;
-        RECT 0.55 2.2 1.05 2.5 ;
+        RECT 0.85 2.2 1.35 2.5 ;
       LAYER MET2 ;
-        RECT 0.55 2.15 1.05 2.55 ;
+        RECT 0.85 2.15 1.35 2.55 ;
       LAYER VIA12 ;
-        RECT 0.67 2.22 0.93 2.48 ;
+        RECT 0.97 2.22 1.23 2.48 ;
     END
   END A
   PIN Y
@@ -2934,35 +2933,45 @@ MACRO gf180mcu_osu_sc_gp9t3v3__lshifdown
     USE SIGNAL ;
     PORT
       LAYER MET1 ;
-        RECT 3.7 2.2 4.1 2.5 ;
-        RECT 3.75 0.95 4.05 5.2 ;
+        RECT 4 2.2 4.4 2.5 ;
+        RECT 4.05 0.95 4.35 5.2 ;
       LAYER MET2 ;
-        RECT 3.65 2.15 4.15 2.55 ;
+        RECT 3.95 2.15 4.45 2.55 ;
       LAYER VIA12 ;
-        RECT 3.77 2.22 4.03 2.48 ;
+        RECT 4.07 2.22 4.33 2.48 ;
     END
   END Y
   OBS
+    LAYER MET3 ;
+      RECT -0.05 5.55 5.25 6.15 ;
+      RECT 0.85 4.75 1.15 6.15 ;
+    LAYER VIA23 ;
+      RECT 0.87 4.82 1.13 5.08 ;
     LAYER MET2 ;
-      RECT 2.9 2.8 3.4 3.2 ;
-      RECT 1.45 2.85 3.4 3.15 ;
-      RECT 1.45 2.15 1.75 3.15 ;
-      RECT 1.35 2.15 1.85 2.55 ;
+      RECT 3.2 2.8 3.7 3.2 ;
+      RECT 1.75 2.85 3.7 3.15 ;
+      RECT 1.75 2.15 2.05 3.15 ;
+      RECT 1.65 2.15 2.15 2.55 ;
+      RECT 0.8 4.75 1.2 5.15 ;
+      RECT 0.75 4.8 1.25 5.1 ;
+      RECT 0.85 4.7 1.15 5.15 ;
     LAYER VIA12 ;
-      RECT 3.02 2.87 3.28 3.13 ;
-      RECT 1.47 2.22 1.73 2.48 ;
+      RECT 3.32 2.87 3.58 3.13 ;
+      RECT 1.77 2.22 2.03 2.48 ;
+      RECT 0.87 4.82 1.13 5.08 ;
     LAYER MET1 ;
-      RECT 1.45 0.95 1.75 5.2 ;
-      RECT 1.35 2.15 1.85 2.55 ;
-      RECT 2.9 2.85 3.4 3.15 ;
+      RECT 1.75 0.95 2.05 5.2 ;
+      RECT 1.65 2.15 2.15 2.55 ;
+      RECT 3.2 2.85 3.7 3.15 ;
+      RECT 0.85 3.5 1.15 5.2 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__lshifdown
 
 MACRO gf180mcu_osu_sc_gp9t3v3__lshifup
   CLASS CORE ;
-  ORIGIN 0 0 ;
-  FOREIGN gf180mcu_osu_sc_gp9t3v3__lshifup 0 0 ;
-  SIZE 8.15 BY 6.15 ;
+  ORIGIN 0.35 0 ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__lshifup -0.35 0 ;
+  SIZE 8.85 BY 6.15 ;
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN VDD
@@ -2971,29 +2980,19 @@ MACRO gf180mcu_osu_sc_gp9t3v3__lshifup
     SHAPE ABUTMENT ;
     PORT
       LAYER MET1 ;
-        RECT 0 5.55 2.3 6.15 ;
-        RECT 0.55 3.5 0.85 6.15 ;
+        RECT -0.35 5.55 8.5 6.15 ;
+        RECT 0.85 3.5 1.15 6.15 ;
     END
   END VDD
-  PIN VDDH
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER MET1 ;
-        RECT 2.9 5.55 8.15 6.15 ;
-        RECT 6.4 3.5 6.7 6.15 ;
-        RECT 4.35 4.05 4.85 6.15 ;
-    END
-  END VDDH
   PIN VSS
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER MET1 ;
-        RECT 0 0 8.15 0.6 ;
-        RECT 6.4 0 6.7 1.8 ;
-        RECT 4.35 0 4.85 1.8 ;
-        RECT 0.55 0 0.85 1.8 ;
+        RECT -0.35 0 8.5 0.6 ;
+        RECT 6.1 0 6.4 1.8 ;
+        RECT 4.05 0 4.55 1.8 ;
+        RECT 0.85 0 1.15 1.8 ;
     END
   END VSS
   PIN A
@@ -3001,18 +3000,18 @@ MACRO gf180mcu_osu_sc_gp9t3v3__lshifup
     USE SIGNAL ;
     PORT
       LAYER MET1 ;
-        RECT 3.7 2.05 4.2 2.35 ;
-        RECT 0.55 2.2 1.05 2.5 ;
+        RECT 3.4 2.05 3.9 2.35 ;
+        RECT 0.85 2.2 1.35 2.5 ;
       LAYER MET2 ;
-        RECT 3.7 2.05 4.2 2.35 ;
-        RECT 3.7 2 4.15 2.4 ;
-        RECT 3.85 1.4 4.15 2.4 ;
-        RECT 0.7 1.4 4.15 1.7 ;
-        RECT 0.55 2.15 1.05 2.55 ;
-        RECT 0.7 1.4 1 2.55 ;
+        RECT 3.4 2.05 3.9 2.35 ;
+        RECT 3.4 2 3.85 2.4 ;
+        RECT 3.55 1.4 3.85 2.4 ;
+        RECT 1 1.4 3.85 1.7 ;
+        RECT 0.85 2.15 1.35 2.55 ;
+        RECT 1 1.4 1.3 2.55 ;
       LAYER VIA12 ;
-        RECT 0.67 2.22 0.93 2.48 ;
-        RECT 3.82 2.07 4.08 2.33 ;
+        RECT 0.97 2.22 1.23 2.48 ;
+        RECT 3.52 2.07 3.78 2.33 ;
     END
   END A
   PIN Y
@@ -3020,51 +3019,66 @@ MACRO gf180mcu_osu_sc_gp9t3v3__lshifup
     USE SIGNAL ;
     PORT
       LAYER MET1 ;
-        RECT 7.25 2.2 7.65 2.5 ;
-        RECT 7.3 0.95 7.6 5.2 ;
+        RECT 6.95 2.2 7.35 2.5 ;
+        RECT 7 0.95 7.3 5.2 ;
       LAYER MET2 ;
-        RECT 7.2 2.15 7.7 2.55 ;
+        RECT 6.9 2.15 7.4 2.55 ;
       LAYER VIA12 ;
-        RECT 7.32 2.22 7.58 2.48 ;
+        RECT 7.02 2.22 7.28 2.48 ;
     END
   END Y
   OBS
+    LAYER MET3 ;
+      RECT -0.35 5.55 8.5 6.15 ;
+      RECT 6.1 4.75 6.4 6.15 ;
+      RECT 4.1 4.75 4.5 6.15 ;
+    LAYER VIA23 ;
+      RECT 6.12 4.82 6.38 5.08 ;
+      RECT 4.17 4.82 4.43 5.08 ;
     LAYER MET2 ;
-      RECT 3.25 3.5 3.75 3.9 ;
-      RECT 3.25 3.5 5.5 3.85 ;
-      RECT 5.2 2.8 5.5 3.85 ;
-      RECT 6.45 2.8 6.95 3.2 ;
-      RECT 5.15 2.8 5.55 3.2 ;
-      RECT 5.1 2.85 6.95 3.15 ;
-      RECT 5.1 2.8 5.6 3.15 ;
-      RECT 1.45 2.85 4.8 3.15 ;
-      RECT 4.5 2.05 4.8 3.15 ;
-      RECT 1.45 2.15 1.75 3.15 ;
-      RECT 1.35 2.15 1.85 2.55 ;
-      RECT 4.5 2.05 5.5 2.4 ;
-      RECT 5 2 5.5 2.4 ;
+      RECT 2.95 3.5 3.45 3.9 ;
+      RECT 2.95 3.5 5.2 3.85 ;
+      RECT 4.9 2.8 5.2 3.85 ;
+      RECT 6.15 2.8 6.65 3.2 ;
+      RECT 4.85 2.8 5.25 3.2 ;
+      RECT 4.8 2.85 6.65 3.15 ;
+      RECT 4.8 2.8 5.3 3.15 ;
+      RECT 6.05 4.75 6.45 5.15 ;
+      RECT 6 4.8 6.5 5.1 ;
+      RECT 1.75 2.85 4.5 3.15 ;
+      RECT 4.2 2.05 4.5 3.15 ;
+      RECT 1.75 2.15 2.05 3.15 ;
+      RECT 1.65 2.15 2.15 2.55 ;
+      RECT 4.2 2.05 5.2 2.4 ;
+      RECT 4.7 2 5.2 2.4 ;
+      RECT 4.05 4.75 4.55 5.15 ;
+      RECT 4 4.8 4.6 5.1 ;
     LAYER VIA12 ;
-      RECT 6.57 2.87 6.83 3.13 ;
-      RECT 5.22 2.87 5.48 3.13 ;
-      RECT 5.12 2.07 5.38 2.33 ;
-      RECT 3.37 3.57 3.63 3.83 ;
-      RECT 1.47 2.22 1.73 2.48 ;
+      RECT 6.27 2.87 6.53 3.13 ;
+      RECT 6.12 4.82 6.38 5.08 ;
+      RECT 4.92 2.87 5.18 3.13 ;
+      RECT 4.82 2.07 5.08 2.33 ;
+      RECT 4.17 4.82 4.43 5.08 ;
+      RECT 3.07 3.57 3.33 3.83 ;
+      RECT 1.77 2.22 2.03 2.48 ;
     LAYER MET1 ;
-      RECT 5.45 3.5 5.75 5.2 ;
-      RECT 4 3.5 6.15 3.8 ;
-      RECT 5.85 1.55 6.15 3.8 ;
-      RECT 4 2.75 4.3 3.8 ;
-      RECT 3.85 2.75 4.3 3.2 ;
-      RECT 5.45 1.55 6.15 1.8 ;
-      RECT 5.45 0.95 5.75 1.8 ;
-      RECT 3.45 3.5 3.75 5.2 ;
-      RECT 3.15 1.55 3.45 3.9 ;
-      RECT 3.45 0.95 3.75 1.8 ;
-      RECT 1.45 0.95 1.75 5.2 ;
-      RECT 1.35 2.15 1.85 2.55 ;
-      RECT 6.45 2.85 6.95 3.15 ;
-      RECT 5.1 2.8 5.6 3.25 ;
-      RECT 5 2.05 5.5 2.35 ;
+      RECT 5.15 3.5 5.45 5.2 ;
+      RECT 3.7 3.5 5.85 3.8 ;
+      RECT 5.55 1.55 5.85 3.8 ;
+      RECT 3.7 2.75 4 3.8 ;
+      RECT 3.55 2.75 4 3.2 ;
+      RECT 5.15 1.55 5.85 1.8 ;
+      RECT 5.15 0.95 5.45 1.8 ;
+      RECT 3.15 3.5 3.45 5.2 ;
+      RECT 2.85 1.55 3.15 3.9 ;
+      RECT 3.15 0.95 3.45 1.8 ;
+      RECT 1.75 0.95 2.05 5.2 ;
+      RECT 1.65 2.15 2.15 2.55 ;
+      RECT 6.15 2.85 6.65 3.15 ;
+      RECT 6.1 3.5 6.4 5.2 ;
+      RECT 4.8 2.8 5.3 3.25 ;
+      RECT 4.7 2.05 5.2 2.35 ;
+      RECT 4.05 4.05 4.55 5.2 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__lshifup
 
