@@ -1,0 +1,8 @@
+* NGSPICE file created from ffra.ext - technology: gf180mcuC
+
+.subckt ffra a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] b[0] b[1] b[2] b[3] b[4] b[5]
++ b[6] b[7] ci[0] ci[10] ci[11] ci[12] ci[13] ci[14] ci[15] ci[1] ci[2] ci[3] ci[4]
++ ci[5] ci[6] ci[7] ci[8] ci[9] clk o[0] o[10] o[11] o[12] o[13] o[14] o[15] o[1]
++ o[2] o[3] o[4] o[5] o[6] o[7] o[8] o[9] rst vdd vss
+.ends
+
