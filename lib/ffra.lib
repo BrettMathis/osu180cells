@@ -77,15 +77,15 @@ library (ffra) {
       capacitance : 0.0000;
     pin("a[7]") {
       direction : input;
-      capacitance : 0.0047;
+      capacitance : 0.0045;
     }
     pin("a[6]") {
       direction : input;
-      capacitance : 0.0048;
+      capacitance : 0.0047;
     }
     pin("a[5]") {
       direction : input;
-      capacitance : 0.0049;
+      capacitance : 0.0052;
     }
     pin("a[4]") {
       direction : input;
@@ -97,15 +97,15 @@ library (ffra) {
     }
     pin("a[2]") {
       direction : input;
-      capacitance : 0.0050;
+      capacitance : 0.0051;
     }
     pin("a[1]") {
       direction : input;
-      capacitance : 0.0048;
+      capacitance : 0.0046;
     }
     pin("a[0]") {
       direction : input;
-      capacitance : 0.0045;
+      capacitance : 0.0047;
     }
     }
     bus("b") {
@@ -114,15 +114,15 @@ library (ffra) {
       capacitance : 0.0000;
     pin("b[7]") {
       direction : input;
-      capacitance : 0.0047;
+      capacitance : 0.0045;
     }
     pin("b[6]") {
       direction : input;
-      capacitance : 0.0048;
+      capacitance : 0.0046;
     }
     pin("b[5]") {
       direction : input;
-      capacitance : 0.0050;
+      capacitance : 0.0048;
     }
     pin("b[4]") {
       direction : input;
@@ -130,7 +130,7 @@ library (ffra) {
     }
     pin("b[3]") {
       direction : input;
-      capacitance : 0.0049;
+      capacitance : 0.0050;
     }
     pin("b[2]") {
       direction : input;
@@ -142,7 +142,7 @@ library (ffra) {
     }
     pin("b[0]") {
       direction : input;
-      capacitance : 0.0047;
+      capacitance : 0.0045;
     }
     }
     bus("ci") {
@@ -151,7 +151,7 @@ library (ffra) {
       capacitance : 0.0000;
     pin("ci[15]") {
       direction : input;
-      capacitance : 0.0066;
+      capacitance : 0.0067;
     }
     pin("ci[14]") {
       direction : input;
@@ -167,27 +167,27 @@ library (ffra) {
     }
     pin("ci[11]") {
       direction : input;
-      capacitance : 0.0067;
+      capacitance : 0.0066;
     }
     pin("ci[10]") {
       direction : input;
-      capacitance : 0.0066;
+      capacitance : 0.0065;
     }
     pin("ci[9]") {
       direction : input;
-      capacitance : 0.0066;
+      capacitance : 0.0065;
     }
     pin("ci[8]") {
       direction : input;
-      capacitance : 0.0066;
+      capacitance : 0.0065;
     }
     pin("ci[7]") {
       direction : input;
-      capacitance : 0.0066;
+      capacitance : 0.0062;
     }
     pin("ci[6]") {
       direction : input;
-      capacitance : 0.0062;
+      capacitance : 0.0065;
     }
     pin("ci[5]") {
       direction : input;
@@ -195,11 +195,11 @@ library (ffra) {
     }
     pin("ci[4]") {
       direction : input;
-      capacitance : 0.0063;
+      capacitance : 0.0062;
     }
     pin("ci[3]") {
       direction : input;
-      capacitance : 0.0063;
+      capacitance : 0.0062;
     }
     pin("ci[2]") {
       direction : input;
