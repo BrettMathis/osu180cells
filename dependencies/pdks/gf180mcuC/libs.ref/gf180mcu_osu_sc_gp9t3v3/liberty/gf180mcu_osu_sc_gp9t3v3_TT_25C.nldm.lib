@@ -1,7 +1,7 @@
 library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
-  /* Models written by Liberate 19.2.2.189 from Cadence Design Systems, Inc. on Fri Feb  3 18:41:31 CST 2023 */
+  /* Models written by Liberate 19.2.2.189 from Cadence Design Systems, Inc. on Mon Feb  6 16:54:26 CST 2023 */
   comment : "";
-  date : "$Date: Fri Feb  3 17:38:08 2023 $";
+  date : "$Date: Mon Feb  6 15:51:23 2023 $";
   revision : "1.0";
   delay_model : table_lookup;
   capacitive_load_unit (1,pf);
@@ -27,12 +27,10 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
   slew_lower_threshold_pct_rise : 20;
   slew_upper_threshold_pct_fall : 80;
   slew_upper_threshold_pct_rise : 80;
-  voltage_map (COREVDD1, 3.3);
-  voltage_map (COREVDD2, 5);
-  voltage_map (VSS, 0);
   voltage_map (VDD, 3.3);
+  voltage_map (VSS, 0);
+  voltage_map (VDDH, 5);
   voltage_map (GND, 0);
-  voltage_map (COREGND1, 0);
   operating_conditions (PVT_3P3V_25C) {
     process : 1;
     temperature : 25;
@@ -70,7 +68,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00434118;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -2907,7 +2905,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00346932;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -3675,7 +3673,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00145727;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -4047,7 +4045,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.000952688;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -5046,7 +5044,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00123071;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -7486,7 +7484,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00149043;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -7654,7 +7652,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.0126687;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -7822,7 +7820,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00223565;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -7986,11 +7984,11 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     }
   }
   cell (gf180mcu_osu_sc_gp9t3v3__buf_4) {
-    area : 34.7475;
+    area : 35.055;
     cell_leakage_power : 0.00372608;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -8042,7 +8040,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
             "0.134635, 0.142768, 0.180569, 0.357485, 1.34193, 6.93398", \
             "0.166576, 0.174758, 0.212356, 0.387878, 1.37207, 6.96399", \
             "0.212483, 0.221566, 0.261395, 0.437563, 1.41921, 7.01074", \
-            "0.262048, 0.273066, 0.318945, 0.501499, 1.47978, 7.07118", \
+            "0.261975, 0.273031, 0.318945, 0.501499, 1.47978, 7.07001", \
             "0.262043, 0.275888, 0.333078, 0.536655, 1.53665, 7.12269", \
             "0.0666957, 0.0843226, 0.157933, 0.401175, 1.46786, 7.13109" \
           );
@@ -8054,7 +8052,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
             "0.034979, 0.042699, 0.0836684, 0.324331, 1.74052, 9.79182", \
             "0.0371274, 0.0447155, 0.0850063, 0.324508, 1.74046, 9.79182", \
             "0.0469587, 0.0544148, 0.0939394, 0.32675, 1.74024, 9.79182", \
-            "0.0663416, 0.0747096, 0.113912, 0.33759, 1.74113, 9.79182", \
+            "0.0663592, 0.0747124, 0.113912, 0.33759, 1.74113, 9.79178", \
             "0.101015, 0.111212, 0.154873, 0.375602, 1.76197, 9.79179", \
             "0.163209, 0.175419, 0.230483, 0.452849, 1.87004, 9.81094" \
           );
@@ -8094,7 +8092,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
             "0.0936644, 0.0917031, 0.0883487, 0.0881756, 0.0890751, 0.0893387", \
             "0.104079, 0.101623, 0.097797, 0.0939949, 0.0930047, 0.0932068", \
             "0.14203, 0.137627, 0.127872, 0.117673, 0.112054, 0.111478", \
-            "0.23873, 0.232196, 0.212126, 0.18701, 0.171271, 0.167704", \
+            "0.238176, 0.231651, 0.212126, 0.18701, 0.171271, 0.167536", \
             "0.483133, 0.474083, 0.440218, 0.38873, 0.343305, 0.328736", \
             "1.06774, 1.05831, 1.01422, 0.919347, 0.815583, 0.764281" \
           );
@@ -8122,7 +8120,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
             "0.115716, 0.11378, 0.110308, 0.110254, 0.111159, 0.111424", \
             "0.125929, 0.123465, 0.119632, 0.115838, 0.115904, 0.116097", \
             "0.163922, 0.159607, 0.149684, 0.139306, 0.133968, 0.133414", \
-            "0.260726, 0.254001, 0.234084, 0.208723, 0.193086, 0.189551", \
+            "0.260146, 0.253436, 0.234084, 0.208723, 0.193086, 0.189618", \
             "0.505114, 0.496332, 0.461885, 0.410738, 0.365215, 0.350528", \
             "1.08976, 1.08028, 1.03579, 0.941024, 0.837472, 0.78373" \
           );
@@ -8146,9 +8144,9 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
       related_ground_pin : VSS;
       related_power_pin : VDD;
       max_transition : 10;
-      capacitance : 0.00403969;
-      rise_capacitance : 0.00403888;
-      rise_capacitance_range (0.00358958, 0.00403888);
+      capacitance : 0.00404251;
+      rise_capacitance : 0.00404251;
+      rise_capacitance_range (0.00358958, 0.00404251);
       fall_capacitance : 0.00403969;
       fall_capacitance_range (0.00337475, 0.00403969);
     }
@@ -8158,7 +8156,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00670694;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -8326,7 +8324,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00149043;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -8494,7 +8492,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.0126687;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -8662,7 +8660,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00223565;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -8830,7 +8828,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00372608;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -8998,7 +8996,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00670694;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -9166,7 +9164,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.000745215;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -9334,7 +9332,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.0119234;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -9502,7 +9500,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00149043;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -9670,7 +9668,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00298086;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -9838,7 +9836,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00596172;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -10006,7 +10004,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00595199;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -10689,7 +10687,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.0066972;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -11372,7 +11370,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00708493;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -14837,7 +14835,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00417596;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -15335,7 +15333,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00486968;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -15833,7 +15831,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.000745215;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -16001,7 +15999,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.0119234;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -16169,7 +16167,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00149043;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -16337,7 +16335,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00298086;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -16505,7 +16503,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00596172;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -16668,440 +16666,12 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
       fall_capacitance_range (0.0263278, 0.0323207);
     }
   }
-  cell (gf180mcu_osu_sc_gp9t3v3__lshifdown) {
-    area : 32.595;
-    cell_leakage_power : 1.37341e+10;
-    pg_pin (VDD) {
-      pg_type : primary_power;
-      voltage_name : "COREVDD1";
-    }
-    pg_pin (VDDH) {
-      pg_type : primary_power;
-      voltage_name : "COREVDD2";
-    }
-    pg_pin (VSS) {
-      pg_type : primary_ground;
-      voltage_name : "VSS";
-    }
-    leakage_power () {
-      value : 0;
-      when : "(A * Y)";
-      related_pg_pin : VDD;
-    }
-    leakage_power () {
-      value : 1.37332e+10;
-      when : "(A * Y)";
-      related_pg_pin : VDDH;
-    }
-    leakage_power () {
-      value : 0;
-      when : "(A * Y)";
-      related_pg_pin : VSS;
-    }
-    leakage_power () {
-      value : 0;
-      when : "(!A * !Y)";
-      related_pg_pin : VDD;
-    }
-    leakage_power () {
-      value : 1.37351e+10;
-      when : "(!A * !Y)";
-      related_pg_pin : VDDH;
-    }
-    leakage_power () {
-      value : 0;
-      when : "(!A * !Y)";
-      related_pg_pin : VSS;
-    }
-    leakage_power () {
-      value : 0;
-      related_pg_pin : VDD;
-    }
-    leakage_power () {
-      value : 1.37341e+10;
-      related_pg_pin : VDDH;
-    }
-    leakage_power () {
-      value : 0;
-      related_pg_pin : VSS;
-    }
-    pin (Y) {
-      direction : output;
-      function : "A";
-      power_down_function : "(!VDD) + (VSS)";
-      related_ground_pin : VSS;
-      related_power_pin : VDD;
-      max_capacitance : 1.53482;
-      timing () {
-        related_pin : "A";
-        timing_sense : positive_unate;
-        timing_type : combinational;
-        cell_rise (delay_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "0.0839251, 0.10094, 0.168356, 0.4502, 1.65778, 6.85607", \
-            "0.115542, 0.13381, 0.202156, 0.484214, 1.69199, 6.8904", \
-            "0.172065, 0.192106, 0.26791, 0.556107, 1.76505, 6.96305", \
-            "0.275635, 0.298878, 0.385542, 0.711499, 1.93229, 7.13016", \
-            "0.481922, 0.510512, 0.612717, 0.993728, 2.34288, 7.54866", \
-            "0.936578, 0.974516, 1.10238, 1.55897, 3.15124, 8.62632" \
-          );
-        }
-        rise_transition (delay_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "0.0272135, 0.0477808, 0.140558, 0.544271, 2.28267, 9.76717", \
-            "0.0301415, 0.0506855, 0.141581, 0.544207, 2.28267, 9.76721", \
-            "0.0355602, 0.0581219, 0.152796, 0.54662, 2.28316, 9.76721", \
-            "0.0455634, 0.0701432, 0.175829, 0.585396, 2.28448, 9.767", \
-            "0.0654227, 0.0938088, 0.211787, 0.677023, 2.37491, 9.76702", \
-            "0.106089, 0.142111, 0.282622, 0.813553, 2.70328, 9.88178" \
-          );
-        }
-        cell_fall (delay_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "0.053859, 0.0647813, 0.108524, 0.293893, 1.08998, 4.51674", \
-            "0.0631576, 0.0757951, 0.119137, 0.304191, 1.10058, 4.5272", \
-            "0.0664802, 0.082629, 0.130308, 0.314476, 1.11017, 4.53706", \
-            "0.0433567, 0.0646503, 0.124976, 0.309122, 1.10657, 4.53061", \
-            "-0.0615012, -0.0335489, 0.0462314, 0.255527, 1.05276, 4.48058", \
-            "-0.399136, -0.360511, -0.253021, 0.0207472, 0.847572, 4.28769" \
-          );
-        }
-        fall_transition (delay_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "0.0179579, 0.0302318, 0.0898392, 0.350601, 1.47333, 6.30754", \
-            "0.0236142, 0.0345746, 0.0901277, 0.35057, 1.47338, 6.30754", \
-            "0.0336668, 0.0465759, 0.0951032, 0.35148, 1.47351, 6.30746", \
-            "0.0501766, 0.066392, 0.115815, 0.354172, 1.47457, 6.30764", \
-            "0.0811794, 0.101507, 0.161155, 0.378183, 1.48307, 6.30764", \
-            "0.13951, 0.168601, 0.245739, 0.473024, 1.5209, 6.32942" \
-          );
-        }
-      }
-      internal_power () {
-        related_pin : "A";
-        related_pg_pin : VDD;
-        rise_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0" \
-          );
-        }
-        fall_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0" \
-          );
-        }
-      }
-      internal_power () {
-        related_pin : "A";
-        related_pg_pin : VDDH;
-        rise_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "376938, 376938, 376938, 376938, 376938, 376938", \
-            "376938, 376938, 376938, 376938, 376938, 376938", \
-            "376938, 376938, 376938, 376938, 376938, 376938", \
-            "376939, 376939, 376939, 376939, 376939, 376939", \
-            "376941, 376941, 376941, 376941, 376941, 376941", \
-            "376947, 376947, 376947, 376947, 376947, 376947" \
-          );
-        }
-        fall_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "254761, 254761, 254761, 254761, 254761, 254761", \
-            "254761, 254761, 254761, 254761, 254761, 254761", \
-            "254761, 254761, 254761, 254761, 254761, 254761", \
-            "254761, 254761, 254761, 254761, 254761, 254761", \
-            "254759, 254759, 254759, 254759, 254759, 254759", \
-            "254755, 254755, 254755, 254755, 254755, 254755" \
-          );
-        }
-      }
-      internal_power () {
-        related_pin : "A";
-        related_pg_pin : VSS;
-        rise_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "0.0705998, 0.071211, 0.072578, 0.0735238, 0.0738498, 0.0739347", \
-            "0.108225, 0.108626, 0.109544, 0.110565, 0.11101, 0.11119", \
-            "0.211773, 0.211379, 0.211311, 0.212281, 0.213303, 0.213575", \
-            "0.490031, 0.488869, 0.485821, 0.485165, 0.486885, 0.486417", \
-            "1.22945, 1.22669, 1.22266, 1.21519, 1.21388, 1.21628", \
-            "3.16606, 3.16293, 3.15391, 3.1399, 3.12273, 3.12114" \
-          );
-        }
-        fall_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00446508, 0.0192259, 0.0827834, 0.356451, 1.53482");
-          values ( \
-            "0.0329483, 0.0333757, 0.0341491, 0.0346193, 0.0348077, 0.0348514", \
-            "0.0692688, 0.0691554, 0.0694288, 0.0700464, 0.0702184, 0.0702238", \
-            "0.174597, 0.172999, 0.171148, 0.170981, 0.171433, 0.172265", \
-            "0.457022, 0.455353, 0.451432, 0.444476, 0.444358, 0.444945", \
-            "1.20365, 1.20241, 1.19526, 1.18283, 1.16892, 1.1754", \
-            "3.14646, 3.14209, 3.13062, 3.11042, 3.09157, 3.07845" \
-          );
-        }
-      }
-    }
-    pin (A) {
-      direction : input;
-      related_ground_pin : VSS;
-      related_power_pin : VDDH;
-      max_transition : 10;
-      capacitance : 0.00409522;
-      rise_capacitance : 0.00409262;
-      rise_capacitance_range (0.00394351, 0.00409262);
-      fall_capacitance : 0.00409522;
-      fall_capacitance_range (0.0040839, 0.00409522);
-    }
-  }
-  cell (gf180mcu_osu_sc_gp9t3v3__lshifup) {
-    area : 54.4275;
-    cell_leakage_power : 4.12027e+10;
-    pg_pin (VDD) {
-      pg_type : primary_power;
-      voltage_name : "COREVDD1";
-    }
-    pg_pin (VDDH) {
-      pg_type : primary_power;
-      voltage_name : "COREVDD2";
-    }
-    pg_pin (VSS) {
-      pg_type : primary_ground;
-      voltage_name : "VSS";
-    }
-    leakage_power () {
-      value : 0;
-      when : "(A * Y)";
-      related_pg_pin : VDD;
-    }
-    leakage_power () {
-      value : 4.12035e+10;
-      when : "(A * Y)";
-      related_pg_pin : VDDH;
-    }
-    leakage_power () {
-      value : 0;
-      when : "(A * Y)";
-      related_pg_pin : VSS;
-    }
-    leakage_power () {
-      value : 0;
-      when : "(!A * !Y)";
-      related_pg_pin : VDD;
-    }
-    leakage_power () {
-      value : 4.12019e+10;
-      when : "(!A * !Y)";
-      related_pg_pin : VDDH;
-    }
-    leakage_power () {
-      value : 0;
-      when : "(!A * !Y)";
-      related_pg_pin : VSS;
-    }
-    leakage_power () {
-      value : 0;
-      related_pg_pin : VDD;
-    }
-    leakage_power () {
-      value : 4.12027e+10;
-      related_pg_pin : VDDH;
-    }
-    leakage_power () {
-      value : 0;
-      related_pg_pin : VSS;
-    }
-    pin (Y) {
-      direction : output;
-      function : "A";
-      power_down_function : "(!VDDH) + (VSS)";
-      related_ground_pin : VSS;
-      related_power_pin : VDDH;
-      max_capacitance : 1.69912;
-      timing () {
-        related_pin : "A";
-        timing_sense : positive_unate;
-        timing_type : combinational;
-        cell_rise (delay_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "0.301844, 0.313789, 0.353966, 0.516842, 1.25825, 4.53064", \
-            "0.333446, 0.345639, 0.387012, 0.551856, 1.29387, 4.56633", \
-            "0.428493, 0.441083, 0.48201, 0.64822, 1.39043, 4.66292", \
-            "0.530863, 0.54674, 0.593414, 0.761146, 1.50331, 4.7754", \
-            "0.544413, 0.563567, 0.618963, 0.791341, 1.53602, 4.81227", \
-            "0.326468, 0.348651, 0.412213, 0.592617, 1.34089, 4.63919" \
-          );
-        }
-        rise_transition (delay_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "0.0324853, 0.0442722, 0.0978867, 0.35983, 1.53884, 6.72098", \
-            "0.0324585, 0.044254, 0.0979058, 0.359821, 1.53884, 6.72098", \
-            "0.0329703, 0.0448211, 0.0980069, 0.359831, 1.53884, 6.72099", \
-            "0.0443399, 0.0574199, 0.10733, 0.361862, 1.53946, 6.72099", \
-            "0.0594147, 0.075137, 0.125172, 0.36768, 1.54567, 6.72288", \
-            "0.0736294, 0.091924, 0.145642, 0.377648, 1.55462, 6.74813" \
-          );
-        }
-        cell_fall (delay_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "0.34128, 0.353991, 0.398359, 0.596697, 1.48557, 5.42481", \
-            "0.373554, 0.3863, 0.430032, 0.629037, 1.51792, 5.45707", \
-            "0.467273, 0.479769, 0.524464, 0.723448, 1.61183, 5.55061", \
-            "0.726936, 0.739687, 0.783961, 0.983056, 1.87118, 5.80825", \
-            "1.36144, 1.37481, 1.41909, 1.6179, 2.50449, 6.4371", \
-            "2.84591, 2.85976, 2.9044, 3.10276, 3.98967, 7.91757" \
-          );
-        }
-        fall_transition (delay_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "0.0488998, 0.0650934, 0.14533, 0.530963, 2.27569, 9.94807", \
-            "0.0489112, 0.0650569, 0.145346, 0.530948, 2.27569, 9.94806", \
-            "0.0493289, 0.0652261, 0.145563, 0.531045, 2.27569, 9.94808", \
-            "0.0500451, 0.0662151, 0.145975, 0.531032, 2.27571, 9.94579", \
-            "0.0543605, 0.0703383, 0.149044, 0.532125, 2.27637, 9.94723", \
-            "0.0590774, 0.0749478, 0.152277, 0.533675, 2.27757, 9.94842" \
-          );
-        }
-      }
-      internal_power () {
-        related_pin : "A";
-        related_pg_pin : VDD;
-        rise_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0" \
-          );
-        }
-        fall_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0", \
-            "0, 0, 0, 0, 0, 0" \
-          );
-        }
-      }
-      internal_power () {
-        related_pin : "A";
-        related_pg_pin : VDDH;
-        rise_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "804442, 804442, 804442, 804442, 804440, 804433", \
-            "804442, 804442, 804442, 804442, 804440, 804433", \
-            "804442, 804442, 804442, 804441, 804440, 804433", \
-            "804441, 804441, 804441, 804440, 804439, 804432", \
-            "804439, 804439, 804439, 804439, 804437, 804430", \
-            "804435, 804435, 804435, 804435, 804433, 804426" \
-          );
-        }
-        fall_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06", \
-            "1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06", \
-            "1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06", \
-            "1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06, 1.1202e+06", \
-            "1.12021e+06, 1.12021e+06, 1.12021e+06, 1.12021e+06, 1.12021e+06, 1.12021e+06", \
-            "1.12021e+06, 1.12021e+06, 1.12021e+06, 1.12021e+06, 1.12021e+06, 1.12021e+06" \
-          );
-        }
-      }
-      internal_power () {
-        related_pin : "A";
-        related_pg_pin : VSS;
-        rise_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "3.14838, 3.145, 3.13823, 3.12772, 3.12234, 3.12067", \
-            "3.16629, 3.16309, 3.15712, 3.14837, 3.14384, 3.14214", \
-            "3.22798, 3.22489, 3.21886, 3.21155, 3.20736, 3.2058", \
-            "3.38834, 3.38419, 3.37589, 3.36624, 3.35959, 3.35692", \
-            "3.81811, 3.81294, 3.8008, 3.78551, 3.77378, 3.76899", \
-            "4.8909, 4.88448, 4.86838, 4.84845, 4.83184, 4.82287" \
-          );
-        }
-        fall_power (power_template) {
-          index_1 ("0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10");
-          index_2 ("0.00103698, 0.00455683, 0.0200241, 0.0879921, 0.386664, 1.69912");
-          values ( \
-            "8.21234, 8.19094, 8.10056, 7.70813, 5.99872, -1.48315", \
-            "8.21246, 8.19109, 8.10014, 7.70831, 5.9989, -1.48305", \
-            "8.23699, 8.21529, 8.12522, 7.73331, 6.02339, -1.45892", \
-            "8.33107, 8.30934, 8.21908, 7.82729, 6.11723, -1.36672", \
-            "8.60446, 8.58279, 8.49108, 8.09846, 6.38819, -1.10088", \
-            "9.24145, 9.22082, 9.12793, 8.73084, 7.01681, -0.472095" \
-          );
-        }
-      }
-    }
-    pin (A) {
-      direction : input;
-      related_ground_pin : VSS;
-      related_power_pin : VDD;
-      max_transition : 10;
-      capacitance : 0.00540424;
-      rise_capacitance : 0.00540424;
-      rise_capacitance_range (0.00494986, 0.00540424);
-      fall_capacitance : 0.00537398;
-      fall_capacitance_range (0.00494746, 0.00537398);
-    }
-  }
   cell (gf180mcu_osu_sc_gp9t3v3__mux2_1) {
     area : 31.365;
     cell_leakage_power : 0.00200969;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -17813,7 +17383,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.000789285;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -18185,7 +17755,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00083904;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -18557,7 +18127,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.000973735;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -19556,7 +19126,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00127026;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -21996,7 +21566,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00103253;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -23758,7 +23328,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00166149;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -24130,7 +23700,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.0018518;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -24613,7 +24183,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -24651,7 +24221,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -24689,7 +24259,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.001118;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -25445,7 +25015,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00287924;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;
@@ -25987,7 +25557,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm) {
     cell_leakage_power : 0.00287924;
     pg_pin (VDD) {
       pg_type : primary_power;
-      voltage_name : "COREVDD1";
+      voltage_name : "VDD";
     }
     pg_pin (VSS) {
       pg_type : primary_ground;

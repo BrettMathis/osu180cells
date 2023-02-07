@@ -1,4 +1,4 @@
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__addf_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__addf_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__addf_1.ext - technology: gf180mcuC
 
@@ -34,8 +34,8 @@ X27 a_76_70# B a_59_19# VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__addf_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__addh_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__addf_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__addh_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__addh_1.ext - technology: gf180mcuC
 
@@ -57,8 +57,8 @@ X13 a_75_19# B a_91_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__addh_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__and2_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__addh_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__and2_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__and2_1.ext - technology: gf180mcuC
 
@@ -72,8 +72,8 @@ X5 VSS B a_28_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__and2_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__aoi21_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__and2_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__aoi21_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__aoi21_1.ext - technology: gf180mcuC
 
@@ -87,8 +87,8 @@ X5 Y A1 a_28_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__aoi21_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__aoi22_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__aoi21_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__aoi22_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__aoi22_1.ext - technology: gf180mcuC
 
@@ -104,8 +104,8 @@ X7 Y A1 a_28_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__aoi22_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__aoi22_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__buf_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__buf_1.ext - technology: gf180mcuC
 
@@ -117,8 +117,8 @@ X3 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_16.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__buf_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__buf_16.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__buf_16.ext - technology: gf180mcuC
 
@@ -160,8 +160,8 @@ X33 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_16.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_2.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__buf_16.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__buf_2.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__buf_2.ext - technology: gf180mcuC
 
@@ -175,27 +175,27 @@ X5 Y a_9_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_2.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_4.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__buf_2.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__buf_4.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__buf_4.ext - technology: gf180mcuC
 
 .subckt gf180mcu_osu_sc_gp9t3v3__buf_4 A Y VDD VSS
-X0 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
-X1 VSS a_9_19# Y VSS nmos_3p3 w=0.85u l=0.3u
-X2 VSS A a_9_19# VSS nmos_3p3 w=0.85u l=0.3u
-X3 VDD a_9_19# Y VDD pmos_3p3 w=1.7u l=0.3u
-X4 VDD A a_9_19# VDD pmos_3p3 w=1.7u l=0.3u
-X5 VSS a_9_19# Y VSS nmos_3p3 w=0.85u l=0.3u
-X6 Y a_9_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
-X7 VDD a_9_19# Y VDD pmos_3p3 w=1.7u l=0.3u
-X8 Y a_9_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
-X9 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
+X0 VDD A a_10_19# VDD pmos_3p3 w=1.7u l=0.3u
+X1 VSS a_10_19# Y VSS nmos_3p3 w=0.85u l=0.3u
+X2 VDD a_10_19# Y VDD pmos_3p3 w=1.7u l=0.3u
+X3 VSS a_10_19# Y VSS nmos_3p3 w=0.85u l=0.3u
+X4 Y a_10_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
+X5 VDD a_10_19# Y VDD pmos_3p3 w=1.7u l=0.3u
+X6 Y a_10_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
+X7 Y a_10_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
+X8 VSS A a_10_19# VSS nmos_3p3 w=0.85u l=0.3u
+X9 Y a_10_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_4.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_8.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__buf_4.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__buf_8.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__buf_8.ext - technology: gf180mcuC
 
@@ -221,8 +221,8 @@ X17 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__buf_8.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__buf_8.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkbuf_1.ext - technology: gf180mcuC
 
@@ -234,8 +234,8 @@ X3 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_16.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_16.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkbuf_16.ext - technology: gf180mcuC
 
@@ -277,8 +277,8 @@ X33 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_16.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_2.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_16.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_2.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkbuf_2.ext - technology: gf180mcuC
 
@@ -292,8 +292,8 @@ X5 Y a_9_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_2.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_4.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_2.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_4.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkbuf_4.ext - technology: gf180mcuC
 
@@ -311,8 +311,8 @@ X9 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_4.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_8.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_4.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_8.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkbuf_8.ext - technology: gf180mcuC
 
@@ -338,8 +338,8 @@ X17 Y a_9_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkbuf_8.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkbuf_8.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkinv_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkinv_1.ext - technology: gf180mcuC
 
@@ -349,8 +349,8 @@ X1 Y A VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_16.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkinv_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkinv_16.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkinv_16.ext - technology: gf180mcuC
 
@@ -391,8 +391,8 @@ C0 Y VDD 2.058360fF
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_16.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_2.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkinv_16.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkinv_2.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkinv_2.ext - technology: gf180mcuC
 
@@ -404,8 +404,8 @@ X3 VSS A Y VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_2.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_4.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkinv_2.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkinv_4.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkinv_4.ext - technology: gf180mcuC
 
@@ -421,8 +421,8 @@ X7 VDD A Y VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_4.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_8.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkinv_4.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__clkinv_8.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__clkinv_8.ext - technology: gf180mcuC
 
@@ -446,8 +446,8 @@ X15 VDD A Y VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__clkinv_8.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__dff_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__clkinv_8.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__dff_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__dff_1.ext - technology: gf180mcuC
 
@@ -481,8 +481,8 @@ X25 VSS a_161_42# a_148_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__dff_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__dffn_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__dff_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__dffn_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__dffn_1.ext - technology: gf180mcuC
 
@@ -518,8 +518,8 @@ X27 VSS a_161_42# a_148_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__dffn_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__dffsr_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__dffn_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__dffsr_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__dffsr_1.ext - technology: gf180mcuC
 
@@ -563,8 +563,8 @@ X35 VSS a_25_19# a_247_47# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__dffsr_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__dlat_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__dffsr_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__dlat_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__dlat_1.ext - technology: gf180mcuC
 
@@ -588,8 +588,8 @@ X15 VSS a_10_19# a_77_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__dlat_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__dlatn_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__dlat_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__dlatn_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__dlatn_1.ext - technology: gf180mcuC
 
@@ -615,8 +615,8 @@ X17 VSS a_10_19# a_77_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__dlatn_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__dlatn_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__fill_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__fill_1.ext - technology: gf180mcuC
 
@@ -624,8 +624,8 @@ X17 VSS a_10_19# a_77_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_16.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__fill_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__fill_16.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__fill_16.ext - technology: gf180mcuC
 
@@ -633,8 +633,8 @@ X17 VSS a_10_19# a_77_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_16.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_2.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__fill_16.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__fill_2.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__fill_2.ext - technology: gf180mcuC
 
@@ -642,8 +642,8 @@ X17 VSS a_10_19# a_77_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_2.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_4.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__fill_2.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__fill_4.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__fill_4.ext - technology: gf180mcuC
 
@@ -651,8 +651,8 @@ X17 VSS a_10_19# a_77_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_4.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_8.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__fill_4.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__fill_8.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__fill_8.ext - technology: gf180mcuC
 
@@ -660,8 +660,8 @@ X17 VSS a_10_19# a_77_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__fill_8.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__fill_8.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__inv_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__inv_1.ext - technology: gf180mcuC
 
@@ -671,8 +671,8 @@ X1 Y A VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_16.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__inv_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__inv_16.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__inv_16.ext - technology: gf180mcuC
 
@@ -713,8 +713,8 @@ C0 Y VDD 2.058360fF
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_16.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_2.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__inv_16.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__inv_2.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__inv_2.ext - technology: gf180mcuC
 
@@ -726,8 +726,8 @@ X3 VSS A Y VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_2.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_4.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__inv_2.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__inv_4.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__inv_4.ext - technology: gf180mcuC
 
@@ -743,8 +743,8 @@ X7 VDD A Y VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_4.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_8.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__inv_4.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__inv_8.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__inv_8.ext - technology: gf180mcuC
 
@@ -768,38 +768,8 @@ X15 VDD A Y VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__inv_8.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__lshifdown.spice
-
-* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__lshifdown.ext - technology: gf180mcuC
-
-.subckt gf180mcu_osu_sc_gp9t3v3__lshifdown A Y VDDH VDD VSS
-X0 a_26_19# A VDDH VDDH pmos_3p3 w=1.7u l=0.3u
-X1 Y a_26_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
-X2 Y a_26_19# VDD VDD pmos_3p3 w=1.7u l=0.3u
-X3 a_26_19# A VSS VSS nmos_3p3 w=0.85u l=0.3u
-.ends
-
-
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__lshifdown.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__lshifup.spice
-
-* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__lshifup.ext - technology: gf180mcuC
-
-.subckt gf180mcu_osu_sc_gp9t3v3__lshifup A Y VDDH VDD VSS
-X0 a_77_55# a_26_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
-X1 a_26_19# A VDD VDD pmos_3p3 w=1.7u l=0.3u
-X2 a_77_55# a_67_19# VDDH VDDH pmos_3p3 w=1.7u l=0.3u
-X3 Y a_67_19# VSS VSS nmos_3p3 w=0.85u l=0.3u
-X4 Y a_67_19# VDDH VDDH pmos_3p3 w=1.7u l=0.3u
-X5 VSS A a_67_19# VSS nmos_3p3 w=0.85u l=0.3u
-X6 VDDH a_77_55# a_67_19# VDDH pmos_3p3 w=1.7u l=0.3u
-X7 a_26_19# A VSS VSS nmos_3p3 w=0.85u l=0.3u
-.ends
-
-
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__lshifup.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__mux2_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__inv_8.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__mux2_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__mux2_1.ext - technology: gf180mcuC
 
@@ -813,8 +783,8 @@ X5 B a_25_19# Y VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__mux2_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__nand2_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__mux2_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__nand2_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__nand2_1.ext - technology: gf180mcuC
 
@@ -826,8 +796,8 @@ X3 VSS B a_28_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__nand2_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__nor2_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__nand2_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__nor2_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__nor2_1.ext - technology: gf180mcuC
 
@@ -839,8 +809,8 @@ X3 VSS B Y VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__nor2_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__oai21_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__nor2_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__oai21_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__oai21_1.ext - technology: gf180mcuC
 
@@ -854,8 +824,8 @@ X5 a_8_19# A1 VSS VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__oai21_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__oai22_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__oai21_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__oai22_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__oai22_1.ext - technology: gf180mcuC
 
@@ -871,8 +841,8 @@ X7 a_8_19# A1 VSS VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__oai22_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__oai31_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__oai22_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__oai31_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__oai31_1.ext - technology: gf180mcuC
 
@@ -888,8 +858,8 @@ X7 VDD B Y VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__oai31_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__or2_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__oai31_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__or2_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__or2_1.ext - technology: gf180mcuC
 
@@ -903,8 +873,8 @@ X5 VSS B a_9_70# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__or2_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__tbuf_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__or2_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__tbuf_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__tbuf_1.ext - technology: gf180mcuC
 
@@ -920,8 +890,8 @@ X7 a_49_56# EN VSS VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__tbuf_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__tieh.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__tbuf_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__tieh.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__tieh.ext - technology: gf180mcuC
 
@@ -931,8 +901,8 @@ X1 Y a_19_14# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__tieh.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__tiel.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__tieh.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__tiel.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__tiel.ext - technology: gf180mcuC
 
@@ -942,8 +912,8 @@ X1 a_19_14# a_19_14# VDD VDD pmos_3p3 w=1.7u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__tiel.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__tinv_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__tiel.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__tinv_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__tinv_1.ext - technology: gf180mcuC
 
@@ -957,8 +927,8 @@ X5 Y EN a_44_19# VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__tinv_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__xnor2_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__tinv_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__xnor2_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__xnor2_1.ext - technology: gf180mcuC
 
@@ -978,8 +948,8 @@ X11 a_49_14# B VSS VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__xnor2_1.spice
-****BEGIN OF FILE - gf180mcu_osu_sc_gp9t3v3__xor2_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__xnor2_1.spice
+****BOF - gf180mcu_osu_sc_gp9t3v3__xor2_1.spice
 
 * NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__xor2_1.ext - technology: gf180mcuC
 
@@ -999,4 +969,4 @@ X11 a_42_19# A VSS VSS nmos_3p3 w=0.85u l=0.3u
 .ends
 
 
-****END OF FILE - gf180mcu_osu_sc_gp9t3v3__xor2_1.spice
+****EOF - gf180mcu_osu_sc_gp9t3v3__xor2_1.spice
