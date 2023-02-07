@@ -11,7 +11,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 38.640 900.000 39.200 ;
     END
   END a[0]
@@ -19,7 +19,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 113.120 900.000 113.680 ;
     END
   END a[1]
@@ -27,7 +27,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 187.600 900.000 188.160 ;
     END
   END a[2]
@@ -35,7 +35,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 262.080 900.000 262.640 ;
     END
   END a[3]
@@ -43,7 +43,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 336.560 900.000 337.120 ;
     END
   END a[4]
@@ -51,7 +51,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 411.040 900.000 411.600 ;
     END
   END a[5]
@@ -59,7 +59,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 485.520 900.000 486.080 ;
     END
   END a[6]
@@ -67,7 +67,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 560.000 900.000 560.560 ;
     END
   END a[7]
@@ -75,7 +75,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 0.000 38.640 4.000 39.200 ;
     END
   END b[0]
@@ -83,7 +83,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 0.000 113.120 4.000 113.680 ;
     END
   END b[1]
@@ -91,7 +91,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 0.000 187.600 4.000 188.160 ;
     END
   END b[2]
@@ -99,7 +99,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 0.000 262.080 4.000 262.640 ;
     END
   END b[3]
@@ -107,7 +107,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 0.000 336.560 4.000 337.120 ;
     END
   END b[4]
@@ -115,7 +115,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 0.000 411.040 4.000 411.600 ;
     END
   END b[5]
@@ -123,7 +123,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 0.000 485.520 4.000 486.080 ;
     END
   END b[6]
@@ -131,7 +131,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 0.000 560.000 4.000 560.560 ;
     END
   END b[7]
@@ -139,7 +139,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 125.440 0.000 126.000 4.000 ;
     END
   END ci[0]
@@ -147,7 +147,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 623.840 0.000 624.400 4.000 ;
     END
   END ci[10]
@@ -155,7 +155,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 673.680 0.000 674.240 4.000 ;
     END
   END ci[11]
@@ -163,7 +163,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 723.520 0.000 724.080 4.000 ;
     END
   END ci[12]
@@ -171,7 +171,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 773.360 0.000 773.920 4.000 ;
     END
   END ci[13]
@@ -179,7 +179,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 823.200 0.000 823.760 4.000 ;
     END
   END ci[14]
@@ -187,7 +187,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 873.040 0.000 873.600 4.000 ;
     END
   END ci[15]
@@ -195,7 +195,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 175.280 0.000 175.840 4.000 ;
     END
   END ci[1]
@@ -203,7 +203,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 225.120 0.000 225.680 4.000 ;
     END
   END ci[2]
@@ -211,7 +211,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 274.960 0.000 275.520 4.000 ;
     END
   END ci[3]
@@ -219,7 +219,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 324.800 0.000 325.360 4.000 ;
     END
   END ci[4]
@@ -227,7 +227,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 374.640 0.000 375.200 4.000 ;
     END
   END ci[5]
@@ -235,7 +235,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 424.480 0.000 425.040 4.000 ;
     END
   END ci[6]
@@ -243,7 +243,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 474.320 0.000 474.880 4.000 ;
     END
   END ci[7]
@@ -251,7 +251,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 524.160 0.000 524.720 4.000 ;
     END
   END ci[8]
@@ -259,7 +259,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 574.000 0.000 574.560 4.000 ;
     END
   END ci[9]
@@ -267,7 +267,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 25.760 0.000 26.320 4.000 ;
     END
   END clk
@@ -275,7 +275,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 29.680 596.000 30.240 600.000 ;
     END
   END o[0]
@@ -283,7 +283,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 589.680 596.000 590.240 600.000 ;
     END
   END o[10]
@@ -291,7 +291,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 645.680 596.000 646.240 600.000 ;
     END
   END o[11]
@@ -299,7 +299,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 701.680 596.000 702.240 600.000 ;
     END
   END o[12]
@@ -307,7 +307,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 757.680 596.000 758.240 600.000 ;
     END
   END o[13]
@@ -315,7 +315,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 813.680 596.000 814.240 600.000 ;
     END
   END o[14]
@@ -323,7 +323,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 869.680 596.000 870.240 600.000 ;
     END
   END o[15]
@@ -331,7 +331,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 85.680 596.000 86.240 600.000 ;
     END
   END o[1]
@@ -339,7 +339,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 141.680 596.000 142.240 600.000 ;
     END
   END o[2]
@@ -347,7 +347,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 197.680 596.000 198.240 600.000 ;
     END
   END o[3]
@@ -355,7 +355,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 253.680 596.000 254.240 600.000 ;
     END
   END o[4]
@@ -363,7 +363,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 309.680 596.000 310.240 600.000 ;
     END
   END o[5]
@@ -371,7 +371,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 365.680 596.000 366.240 600.000 ;
     END
   END o[6]
@@ -379,7 +379,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 421.680 596.000 422.240 600.000 ;
     END
   END o[7]
@@ -387,7 +387,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 477.680 596.000 478.240 600.000 ;
     END
   END o[8]
@@ -395,7 +395,7 @@ MACRO ffra
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 533.680 596.000 534.240 600.000 ;
     END
   END o[9]
@@ -403,7 +403,7 @@ MACRO ffra
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 75.600 0.000 76.160 4.000 ;
     END
   END rst
@@ -411,27 +411,27 @@ MACRO ffra
     DIRECTION INOUT ;
     USE POWER ;
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 16.720 24.300 18.320 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 170.320 24.300 171.920 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 323.920 24.300 325.520 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 477.520 24.300 479.120 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 631.120 24.300 632.720 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 784.720 24.300 786.320 572.250 ;
     END
   END vdd
@@ -439,35 +439,35 @@ MACRO ffra
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 93.520 24.300 95.120 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 247.120 24.300 248.720 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 400.720 24.300 402.320 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 554.320 24.300 555.920 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 707.920 24.300 709.520 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 861.520 24.300 863.120 572.250 ;
     END
   END vss
   OBS
-      LAYER Metal1 ;
+      LAYER MET1 ;
         RECT 1.200 24.300 898.800 572.250 ;
-      LAYER Metal2 ;
-        RECT 2.940 595.700 29.380 596.820 ;
+      LAYER MET2 ;
+        RECT 3.080 595.700 29.380 596.820 ;
         RECT 30.540 595.700 85.380 596.820 ;
         RECT 86.540 595.700 141.380 596.820 ;
         RECT 142.540 595.700 197.380 596.820 ;
@@ -484,57 +484,54 @@ MACRO ffra
         RECT 758.540 595.700 813.380 596.820 ;
         RECT 814.540 595.700 869.380 596.820 ;
         RECT 870.540 595.700 898.660 596.820 ;
-        RECT 2.940 4.300 898.660 595.700 ;
-        RECT 2.940 3.500 25.460 4.300 ;
-        RECT 26.620 3.500 75.300 4.300 ;
-        RECT 76.460 3.500 125.140 4.300 ;
-        RECT 126.300 3.500 174.980 4.300 ;
-        RECT 176.140 3.500 224.820 4.300 ;
-        RECT 225.980 3.500 274.660 4.300 ;
-        RECT 275.820 3.500 324.500 4.300 ;
-        RECT 325.660 3.500 374.340 4.300 ;
-        RECT 375.500 3.500 424.180 4.300 ;
-        RECT 425.340 3.500 474.020 4.300 ;
-        RECT 475.180 3.500 523.860 4.300 ;
-        RECT 525.020 3.500 573.700 4.300 ;
-        RECT 574.860 3.500 623.540 4.300 ;
-        RECT 624.700 3.500 673.380 4.300 ;
-        RECT 674.540 3.500 723.220 4.300 ;
-        RECT 724.380 3.500 773.060 4.300 ;
-        RECT 774.220 3.500 822.900 4.300 ;
-        RECT 824.060 3.500 872.740 4.300 ;
-        RECT 873.900 3.500 898.660 4.300 ;
-      LAYER Metal3 ;
-        RECT 1.260 560.860 899.780 572.090 ;
+        RECT 3.080 4.300 898.660 595.700 ;
+        RECT 3.080 4.000 25.460 4.300 ;
+        RECT 26.620 4.000 75.300 4.300 ;
+        RECT 76.460 4.000 125.140 4.300 ;
+        RECT 126.300 4.000 174.980 4.300 ;
+        RECT 176.140 4.000 224.820 4.300 ;
+        RECT 225.980 4.000 274.660 4.300 ;
+        RECT 275.820 4.000 324.500 4.300 ;
+        RECT 325.660 4.000 374.340 4.300 ;
+        RECT 375.500 4.000 424.180 4.300 ;
+        RECT 425.340 4.000 474.020 4.300 ;
+        RECT 475.180 4.000 523.860 4.300 ;
+        RECT 525.020 4.000 573.700 4.300 ;
+        RECT 574.860 4.000 623.540 4.300 ;
+        RECT 624.700 4.000 673.380 4.300 ;
+        RECT 674.540 4.000 723.220 4.300 ;
+        RECT 724.380 4.000 773.060 4.300 ;
+        RECT 774.220 4.000 822.900 4.300 ;
+        RECT 824.060 4.000 872.740 4.300 ;
+        RECT 873.900 4.000 898.660 4.300 ;
+      LAYER MET3 ;
+        RECT 4.000 560.860 898.710 572.090 ;
         RECT 4.300 559.700 895.700 560.860 ;
-        RECT 1.260 486.380 899.780 559.700 ;
+        RECT 4.000 486.380 898.710 559.700 ;
         RECT 4.300 485.220 895.700 486.380 ;
-        RECT 1.260 411.900 899.780 485.220 ;
+        RECT 4.000 411.900 898.710 485.220 ;
         RECT 4.300 410.740 895.700 411.900 ;
-        RECT 1.260 337.420 899.780 410.740 ;
+        RECT 4.000 337.420 898.710 410.740 ;
         RECT 4.300 336.260 895.700 337.420 ;
-        RECT 1.260 262.940 899.780 336.260 ;
+        RECT 4.000 262.940 898.710 336.260 ;
         RECT 4.300 261.780 895.700 262.940 ;
-        RECT 1.260 188.460 899.780 261.780 ;
+        RECT 4.000 188.460 898.710 261.780 ;
         RECT 4.300 187.300 895.700 188.460 ;
-        RECT 1.260 113.980 899.780 187.300 ;
+        RECT 4.000 113.980 898.710 187.300 ;
         RECT 4.300 112.820 895.700 113.980 ;
-        RECT 1.260 39.500 899.780 112.820 ;
+        RECT 4.000 39.500 898.710 112.820 ;
         RECT 4.300 38.340 895.700 39.500 ;
-        RECT 1.260 24.460 899.780 38.340 ;
-      LAYER Metal4 ;
-        RECT 33.740 266.650 93.220 388.550 ;
-        RECT 95.420 266.650 170.020 388.550 ;
-        RECT 172.220 266.650 246.820 388.550 ;
-        RECT 249.020 266.650 323.620 388.550 ;
-        RECT 325.820 266.650 400.420 388.550 ;
-        RECT 402.620 266.650 477.220 388.550 ;
-        RECT 479.420 266.650 554.020 388.550 ;
-        RECT 556.220 266.650 630.820 388.550 ;
-        RECT 633.020 266.650 707.620 388.550 ;
-        RECT 709.820 266.650 784.420 388.550 ;
-        RECT 786.620 266.650 861.220 388.550 ;
-        RECT 863.420 266.650 895.300 388.550 ;
+        RECT 4.000 24.460 898.710 38.340 ;
+      LAYER MET4 ;
+        RECT 32.060 263.850 93.220 378.470 ;
+        RECT 95.420 263.850 170.020 378.470 ;
+        RECT 172.220 263.850 246.820 378.470 ;
+        RECT 249.020 263.850 323.620 378.470 ;
+        RECT 325.820 263.850 400.420 378.470 ;
+        RECT 402.620 263.850 477.220 378.470 ;
+        RECT 479.420 263.850 554.020 378.470 ;
+        RECT 556.220 263.850 630.820 378.470 ;
+        RECT 633.020 263.850 706.580 378.470 ;
   END
 END ffra
 END LIBRARY

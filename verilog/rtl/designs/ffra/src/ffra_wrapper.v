@@ -34,7 +34,6 @@ module ffra_wrapper #(
 )(
     `ifdef USE_POWER_PINS
         inout vdd,		// User area 5.0V supply
-        inout vdd3v3,
         inout vss,		// User area ground
     `endif
 
@@ -110,7 +109,7 @@ module ffra_wrapper #(
 
 ffra mprj (
     `ifdef USE_POWER_PINS
-        .vdd(vdd3v3),	// User area 1 1.8V power
+        .vdd(vdd),	// User area 1 1.8V power
         .vss(vss),	// User area 1 digital ground
     `endif
 

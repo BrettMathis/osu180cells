@@ -36,8 +36,8 @@ set ::env(DECAP_CELL) ""
 # set ::env(DIODE_CELL_PIN) "I"
 # set ::env(DIODE_INSERTION_STRATEGY) {4}
 
-set ::env(CELL_PAD) 2
-# set ::env(CELL_PAD_EXCLUDE) "$::env(STD_CELL_LIBRARY)__filltie_* $::env(STD_CELL_LIBRARY)__filldecap_* $::env(STD_CELL_LIBRARY)__fill_* $::env(STD_CELL_LIBRARY)__endcap_*"
+set ::env(CELL_PAD) 3
+set ::env(CELL_PAD_EXCLUDE) "$::env(STD_CELL_LIBRARY)__fill_*"
 set ::env(CELL_PAD_EXCLUDE) "$::env(STD_CELL_LIBRARY)__fill_*"
 
 # TritonCTS configurations
@@ -52,10 +52,9 @@ set ::env(DEFAULT_MAX_TRAN) 3
 
 
 set ::env(GPL_CELL_PADDING) {0}
-set ::env(DPL_CELL_PADDING) {0}
+set ::env(DPL_CELL_PADDING) {1}
 
-#set ::env(FP_PDN_VPITCH) {180}
 set ::env(FP_PDN_HWIDTH) {0}
 
 set ::env(RUN_TAP_DECAP_INSERTION) {0}
-#set ::env(FP_PDN_UPPER_LAYER) {MET3}
+set ::env(FP_PDN_UPPER_LAYER) {MET3}
