@@ -174,91 +174,91 @@ library (ffra_wrapper) {
     }
     pin("io_in[30]") {
       direction : input;
-      capacitance : 0.1669;
+      capacitance : 0.1670;
     }
     pin("io_in[29]") {
       direction : input;
-      capacitance : 0.2823;
+      capacitance : 0.2368;
     }
     pin("io_in[28]") {
       direction : input;
-      capacitance : 0.2500;
+      capacitance : 0.2281;
     }
     pin("io_in[27]") {
       direction : input;
-      capacitance : 0.2779;
+      capacitance : 0.3123;
     }
     pin("io_in[26]") {
       direction : input;
-      capacitance : 0.4206;
+      capacitance : 0.4896;
     }
     pin("io_in[25]") {
       direction : input;
-      capacitance : 0.4373;
+      capacitance : 0.3708;
     }
     pin("io_in[24]") {
       direction : input;
-      capacitance : 0.3860;
+      capacitance : 0.4946;
     }
     pin("io_in[23]") {
       direction : input;
-      capacitance : 0.3464;
+      capacitance : 0.4400;
     }
     pin("io_in[22]") {
       direction : input;
-      capacitance : 0.2373;
+      capacitance : 0.2501;
     }
     pin("io_in[21]") {
       direction : input;
-      capacitance : 0.2521;
+      capacitance : 0.2154;
     }
     pin("io_in[20]") {
       direction : input;
-      capacitance : 0.1950;
+      capacitance : 0.2770;
     }
     pin("io_in[19]") {
       direction : input;
-      capacitance : 0.2189;
+      capacitance : 0.2663;
     }
     pin("io_in[18]") {
       direction : input;
-      capacitance : 0.2453;
+      capacitance : 0.2429;
     }
     pin("io_in[17]") {
       direction : input;
-      capacitance : 0.2769;
+      capacitance : 0.2438;
     }
     pin("io_in[16]") {
       direction : input;
-      capacitance : 0.2212;
+      capacitance : 0.2194;
     }
     pin("io_in[15]") {
       direction : input;
-      capacitance : 0.2107;
+      capacitance : 0.2101;
     }
     pin("io_in[14]") {
       direction : input;
-      capacitance : 0.3187;
+      capacitance : 0.3109;
     }
     pin("io_in[13]") {
       direction : input;
-      capacitance : 0.2955;
+      capacitance : 0.2947;
     }
     pin("io_in[12]") {
       direction : input;
-      capacitance : 0.2019;
+      capacitance : 0.2173;
     }
     pin("io_in[11]") {
       direction : input;
-      capacitance : 0.2064;
+      capacitance : 0.2204;
     }
     pin("io_in[10]") {
       direction : input;
-      capacitance : 0.2792;
+      capacitance : 0.2793;
     }
     pin("io_in[9]") {
       direction : input;
-      capacitance : 0.2576;
+      capacitance : 0.2577;
     }
     pin("io_in[8]") {
       direction : input;
@@ -266,7 +266,7 @@ library (ffra_wrapper) {
     }
     pin("io_in[7]") {
       direction : input;
-      capacitance : 0.1444;
+      capacitance : 0.1445;
     }
     pin("io_in[6]") {
       direction : input;
@@ -274,11 +274,11 @@ library (ffra_wrapper) {
     }
     pin("io_in[5]") {
       direction : input;
-      capacitance : 0.1646;
+      capacitance : 0.1645;
     }
     pin("io_in[4]") {
       direction : input;
-      capacitance : 0.1755;
+      capacitance : 0.1760;
     }
     pin("io_in[3]") {
       direction : input;
@@ -286,15 +286,15 @@ library (ffra_wrapper) {
     }
     pin("io_in[2]") {
       direction : input;
-      capacitance : 0.1957;
+      capacitance : 0.1955;
     }
     pin("io_in[1]") {
       direction : input;
-      capacitance : 0.2204;
+      capacitance : 0.2202;
     }
     pin("io_in[0]") {
       direction : input;
-      capacitance : 0.2164;
+      capacitance : 0.2162;
     }
     }
     bus("io_oeb") {

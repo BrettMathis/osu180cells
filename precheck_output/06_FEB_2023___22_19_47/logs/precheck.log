@@ -1,0 +1,45 @@
+2023-02-06 22:19:47 - [INFO] - {{EXTRACTING FILES}} Extracting compressed files in: /home/brettcm/caravel/main/osu180cells
+2023-02-06 22:19:47 - [INFO] - {{Project Type Info}} digital
+2023-02-06 22:19:47 - [INFO] - {{Project GDS Info}} user_project_wrapper: e704a6e5922721df741afb712499854068b8643e
+2023-02-06 22:19:48 - [INFO] - {{Tools Info}} KLayout: v0.27.12 | Magic: v8.3.348
+2023-02-06 22:19:48 - [INFO] - {{PDKs Info}} GF180MCUC: a897aa30369d3bcec87d9d50ce9b01f320f854ef | Open PDKs: 35c7265f51749ad8d9fdbb575af22c7c8fab974e
+2023-02-06 22:19:48 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs'
+2023-02-06 22:19:48 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: [License, GPIO-Defines, XOR, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density]
+2023-02-06 22:19:48 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 7: License
+2023-02-06 22:19:48 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/brettcm/caravel/main/osu180cells.
+2023-02-06 22:19:48 - [INFO] - {{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+2023-02-06 22:19:49 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/brettcm/caravel/main/osu180cells.
+2023-02-06 22:19:50 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/brettcm/caravel/main/osu180cells.
+2023-02-06 22:19:51 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/brettcm/caravel/main/osu180cells.
+2023-02-06 22:19:51 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/brettcm/caravel/main/osu180cells.
+2023-02-06 22:19:51 - [INFO] - {{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+2023-02-06 22:19:53 - [INFO] - {{SPDX COMPLIANCE CHECK PASSED}} Project is compliant with the SPDX Standard
+2023-02-06 22:19:53 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 7: GPIO-Defines
+2023-02-06 22:19:53 - [INFO] - GPIO-DEFINES: Checking verilog/rtl/user_defines.v, parsing files: ['/opt/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_base.v', '/home/brettcm/caravel/main/osu180cells/verilog/rtl/user_defines.v', '/opt/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_observe.v']
+2023-02-06 22:19:55 - [INFO] - GPIO-DEFINES report path: /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/outputs/reports/gpio_defines.report
+2023-02-06 22:19:55 - [INFO] - {{GPIO-DEFINES CHECK PASSED}} The user verilog/rtl/user_defines.v is valid.
+2023-02-06 22:19:55 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 7: XOR
+2023-02-06 22:19:57 - [ERROR] - XOR CHECK FILE NOT FOUND in /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs/xor_check.total
+2023-02-06 22:19:57 - [WARNING] - {{XOR CHECK FAILED}} The GDS file has non-conforming geometries.
+2023-02-06 22:19:57 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 7: Klayout FEOL
+2023-02-06 22:19:57 - [INFO] - in CUSTOM klayout_gds_drc_check
+2023-02-06 22:19:57 - [INFO] - run: klayout -b -r /opt/mpw_precheck/checks/tech-files/gf180mcuC_mr.drc -rd input=/home/brettcm/caravel/main/osu180cells/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/outputs/reports/klayout_feol_check.xml -rd feol=true -rd metal_top=9K -rd mim_option=B -rd metal_level=5LM -rd conn_drc=true >& /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs/klayout_feol_check.log
+2023-02-06 22:20:17 - [ERROR] - ERROR klayout_feol FAILED, stat=2, see /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs/klayout_feol_check.log
+2023-02-06 22:20:17 - [WARNING] - {{Klayout FEOL CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.
+2023-02-06 22:20:17 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 7: Klayout BEOL
+2023-02-06 22:20:17 - [INFO] - in CUSTOM klayout_gds_drc_check
+2023-02-06 22:20:17 - [INFO] - run: klayout -b -r /opt/mpw_precheck/checks/tech-files/gf180mcuC_mr.drc -rd input=/home/brettcm/caravel/main/osu180cells/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/outputs/reports/klayout_beol_check.xml -rd beol=true -rd metal_top=9K -rd mim_option=B -rd metal_level=5LM -rd conn_drc=true >& /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs/klayout_beol_check.log
+2023-02-06 22:20:45 - [ERROR] - ERROR klayout_beol FAILED, stat=2, see /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs/klayout_beol_check.log
+2023-02-06 22:20:45 - [WARNING] - {{Klayout BEOL CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.
+2023-02-06 22:20:45 - [INFO] - {{STEP UPDATE}} Executing Check 6 of 7: Klayout Offgrid
+2023-02-06 22:20:45 - [INFO] - in CUSTOM klayout_gds_drc_check
+2023-02-06 22:20:45 - [INFO] - run: klayout -b -r /opt/mpw_precheck/checks/tech-files/gf180mcuC_mr.drc -rd input=/home/brettcm/caravel/main/osu180cells/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/outputs/reports/klayout_offgrid_check.xml -rd offgrid=true -rd metal_top=9K -rd mim_option=B -rd metal_level=5LM -rd conn_drc=true >& /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs/klayout_offgrid_check.log
+2023-02-06 22:20:52 - [ERROR] - ERROR klayout_offgrid FAILED, stat=2, see /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs/klayout_offgrid_check.log
+2023-02-06 22:20:52 - [WARNING] - {{Klayout Offgrid CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.
+2023-02-06 22:20:52 - [INFO] - {{STEP UPDATE}} Executing Check 7 of 7: Klayout Metal Minimum Clear Area Density
+2023-02-06 22:20:52 - [INFO] - in CUSTOM klayout_gds_drc_check
+2023-02-06 22:20:52 - [INFO] - run: klayout -b -r /opt/mpw_precheck/checks/drc_checks/klayout/gf180mcu_density.lydrc -rd input=/home/brettcm/caravel/main/osu180cells/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/outputs/reports/klayout_met_min_ca_density_check.xml >& /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs/klayout_met_min_ca_density_check.log
+2023-02-06 22:20:53 - [INFO] - No DRC Violations found
+2023-02-06 22:20:53 - [INFO] - {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2023-02-06 22:20:53 - [INFO] - {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/logs'
+2023-02-06 22:20:53 - [CRITICAL] - {{FAILURE}} 4 Check(s) Failed: ['XOR', 'Klayout FEOL', 'Klayout BEOL', 'Klayout Offgrid'] !!!

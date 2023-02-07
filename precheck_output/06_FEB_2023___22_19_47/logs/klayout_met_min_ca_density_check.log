@@ -1,0 +1,16 @@
+"input" in: gf180mcu_density.lydrc:15
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.010s  Memory: 559.00M
+"area" in: gf180mcu_density.lydrc:17
+    Elapsed: 0.010s  Memory: 559.00M
+"polygons" in: gf180mcu_density.lydrc:19
+    Polygons (raw): 6237 (flat)  137 (hierarchical)
+    Elapsed: 0.020s  Memory: 561.00M
+"area" in: gf180mcu_density.lydrc:19
+    Elapsed: 0.030s  Memory: 564.00M
+comp_density is Infinity
+"output" in: gf180mcu_density.lydrc:22
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.010s  Memory: 564.00M
+Writing report database: /home/brettcm/caravel/main/osu180cells/precheck_results/06_FEB_2023___22_19_47/outputs/reports/klayout_met_min_ca_density_check.xml ..
+Total elapsed: 0.290s  Memory: 559.00M
