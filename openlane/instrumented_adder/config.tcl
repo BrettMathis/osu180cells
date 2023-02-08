@@ -20,7 +20,7 @@ set ::env(DESIGN_NAME) instrumented_adder
 
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/designs/instrumented_adder/src/instrumented_adder.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/designs/instrumented_adder/src/instrumented_adder.v" 
 
 set ::env(DESIGN_IS_CORE) 0
 
