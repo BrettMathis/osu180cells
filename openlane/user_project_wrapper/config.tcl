@@ -31,7 +31,7 @@ set ::env(DESIGN_NAME) user_project_wrapper
 ## Source Verilog Files
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/designs/ffra/src/user_project_wrapper.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/user_project_wrapper.v"
 
 ## Clock configurations
 set ::env(CLOCK_PORT) "user_clock2"
@@ -50,13 +50,13 @@ set ::env(MACRO_PLACEMENT_CFG) $::env(DESIGN_DIR)/macro.cfg
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/designs/ffra/src/ffra.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/designs/instrumented_adder/src/instrumented_adder.v"
 
 set ::env(EXTRA_LEFS) "\
-	$::env(DESIGN_DIR)/../../lef/ffra.lef"
+	$::env(DESIGN_DIR)/../../lef/instrumented_adder.lef"
 
 set ::env(EXTRA_GDS_FILES) "\
-	$::env(DESIGN_DIR)/../../gds/ffra.gds"
+	$::env(DESIGN_DIR)/../../gds/instrumented_adder.gds"
 
 set ::env(RT_MAX_LAYER) {MET4}
 
