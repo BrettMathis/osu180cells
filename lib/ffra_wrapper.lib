@@ -206,7 +206,7 @@ library (ffra_wrapper) {
     }
     pin("io_in[22]") {
       direction : input;
-      capacitance : 0.2501;
+      capacitance : 0.2500;
     }
     pin("io_in[21]") {
       direction : input;
@@ -214,15 +214,15 @@ library (ffra_wrapper) {
     }
     pin("io_in[20]") {
       direction : input;
-      capacitance : 0.2770;
+      capacitance : 0.2091;
     }
     pin("io_in[19]") {
       direction : input;
-      capacitance : 0.2663;
+      capacitance : 0.1978;
     }
     pin("io_in[18]") {
       direction : input;
-      capacitance : 0.2429;
+      capacitance : 0.2437;
     }
     pin("io_in[17]") {
       direction : input;
@@ -234,43 +234,43 @@ library (ffra_wrapper) {
     }
     pin("io_in[15]") {
       direction : input;
-      capacitance : 0.2101;
+      capacitance : 0.2107;
     }
     pin("io_in[14]") {
       direction : input;
-      capacitance : 0.3109;
+      capacitance : 0.3187;
     }
     pin("io_in[13]") {
       direction : input;
-      capacitance : 0.2947;
+      capacitance : 0.2955;
     }
     pin("io_in[12]") {
       direction : input;
-      capacitance : 0.2173;
+      capacitance : 0.2019;
     }
     pin("io_in[11]") {
       direction : input;
-      capacitance : 0.2204;
+      capacitance : 0.2064;
     }
     pin("io_in[10]") {
       direction : input;
-      capacitance : 0.2793;
+      capacitance : 0.2790;
     }
     pin("io_in[9]") {
       direction : input;
-      capacitance : 0.2577;
+      capacitance : 0.2579;
     }
     pin("io_in[8]") {
       direction : input;
-      capacitance : 0.1650;
+      capacitance : 0.1652;
     }
     pin("io_in[7]") {
       direction : input;
-      capacitance : 0.1445;
+      capacitance : 0.1444;
     }
     pin("io_in[6]") {
       direction : input;
-      capacitance : 0.1725;
+      capacitance : 0.1724;
     }
     pin("io_in[5]") {
       direction : input;
@@ -278,7 +278,7 @@ library (ffra_wrapper) {
     }
     pin("io_in[4]") {
       direction : input;
-      capacitance : 0.1760;
+      capacitance : 0.1755;
     }
     pin("io_in[3]") {
       direction : input;
@@ -286,15 +286,15 @@ library (ffra_wrapper) {
     }
     pin("io_in[2]") {
       direction : input;
-      capacitance : 0.1955;
+      capacitance : 0.1957;
     }
     pin("io_in[1]") {
       direction : input;
-      capacitance : 0.2202;
+      capacitance : 0.2204;
     }
     pin("io_in[0]") {
       direction : input;
-      capacitance : 0.2162;
+      capacitance : 0.2160;
     }
     }
     bus("io_oeb") {
