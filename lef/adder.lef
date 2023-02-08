@@ -11,7 +11,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 57.680 0.000 58.240 4.000 ;
     END
   END a_in[0]
@@ -19,7 +19,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 169.680 0.000 170.240 4.000 ;
     END
   END a_in[1]
@@ -27,7 +27,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 281.680 0.000 282.240 4.000 ;
     END
   END a_in[2]
@@ -35,7 +35,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 393.680 0.000 394.240 4.000 ;
     END
   END a_in[3]
@@ -43,7 +43,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 505.680 0.000 506.240 4.000 ;
     END
   END a_in[4]
@@ -51,7 +51,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 617.680 0.000 618.240 4.000 ;
     END
   END a_in[5]
@@ -59,7 +59,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 729.680 0.000 730.240 4.000 ;
     END
   END a_in[6]
@@ -67,7 +67,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 841.680 0.000 842.240 4.000 ;
     END
   END a_in[7]
@@ -75,7 +75,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 38.640 900.000 39.200 ;
     END
   END b_in[0]
@@ -83,7 +83,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 113.120 900.000 113.680 ;
     END
   END b_in[1]
@@ -91,7 +91,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 187.600 900.000 188.160 ;
     END
   END b_in[2]
@@ -99,7 +99,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 262.080 900.000 262.640 ;
     END
   END b_in[3]
@@ -107,7 +107,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 336.560 900.000 337.120 ;
     END
   END b_in[4]
@@ -115,7 +115,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 411.040 900.000 411.600 ;
     END
   END b_in[5]
@@ -123,7 +123,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 485.520 900.000 486.080 ;
     END
   END b_in[6]
@@ -131,7 +131,7 @@ MACRO adder
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER Metal3 ;
+      LAYER MET3 ;
         RECT 896.000 560.000 900.000 560.560 ;
     END
   END b_in[7]
@@ -139,7 +139,7 @@ MACRO adder
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 57.680 596.000 58.240 600.000 ;
     END
   END sum[0]
@@ -147,7 +147,7 @@ MACRO adder
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 169.680 596.000 170.240 600.000 ;
     END
   END sum[1]
@@ -155,7 +155,7 @@ MACRO adder
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 281.680 596.000 282.240 600.000 ;
     END
   END sum[2]
@@ -163,7 +163,7 @@ MACRO adder
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 393.680 596.000 394.240 600.000 ;
     END
   END sum[3]
@@ -171,7 +171,7 @@ MACRO adder
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 505.680 596.000 506.240 600.000 ;
     END
   END sum[4]
@@ -179,7 +179,7 @@ MACRO adder
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 617.680 596.000 618.240 600.000 ;
     END
   END sum[5]
@@ -187,7 +187,7 @@ MACRO adder
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 729.680 596.000 730.240 600.000 ;
     END
   END sum[6]
@@ -195,7 +195,7 @@ MACRO adder
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER Metal2 ;
+      LAYER MET2 ;
         RECT 841.680 596.000 842.240 600.000 ;
     END
   END sum[7]
@@ -203,27 +203,27 @@ MACRO adder
     DIRECTION INOUT ;
     USE POWER ;
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 16.720 24.300 18.320 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 170.320 24.300 171.920 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 323.920 24.300 325.520 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 477.520 24.300 479.120 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 631.120 24.300 632.720 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 784.720 24.300 786.320 572.250 ;
     END
   END vdd
@@ -231,73 +231,76 @@ MACRO adder
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 93.520 24.300 95.120 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 247.120 24.300 248.720 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 400.720 24.300 402.320 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 554.320 24.300 555.920 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 707.920 24.300 709.520 572.250 ;
     END
     PORT
-      LAYER Metal4 ;
+      LAYER MET4 ;
         RECT 861.520 24.300 863.120 572.250 ;
     END
   END vss
   OBS
-      LAYER Metal1 ;
+      LAYER MET1 ;
         RECT 1.200 24.300 898.800 572.250 ;
-      LAYER Metal2 ;
-        RECT 16.860 595.700 57.380 596.000 ;
-        RECT 58.540 595.700 169.380 596.000 ;
-        RECT 170.540 595.700 281.380 596.000 ;
-        RECT 282.540 595.700 393.380 596.000 ;
-        RECT 394.540 595.700 505.380 596.000 ;
-        RECT 506.540 595.700 617.380 596.000 ;
-        RECT 618.540 595.700 729.380 596.000 ;
-        RECT 730.540 595.700 841.380 596.000 ;
-        RECT 842.540 595.700 898.100 596.000 ;
-        RECT 16.860 4.300 898.100 595.700 ;
-        RECT 16.860 3.500 57.380 4.300 ;
-        RECT 58.540 3.500 169.380 4.300 ;
-        RECT 170.540 3.500 281.380 4.300 ;
-        RECT 282.540 3.500 393.380 4.300 ;
-        RECT 394.540 3.500 505.380 4.300 ;
-        RECT 506.540 3.500 617.380 4.300 ;
-        RECT 618.540 3.500 729.380 4.300 ;
-        RECT 730.540 3.500 841.380 4.300 ;
-        RECT 842.540 3.500 898.100 4.300 ;
-      LAYER Metal3 ;
-        RECT 16.810 560.860 898.150 572.090 ;
+      LAYER MET2 ;
+        RECT 16.860 595.700 57.380 596.820 ;
+        RECT 58.540 595.700 169.380 596.820 ;
+        RECT 170.540 595.700 281.380 596.820 ;
+        RECT 282.540 595.700 393.380 596.820 ;
+        RECT 394.540 595.700 505.380 596.820 ;
+        RECT 506.540 595.700 617.380 596.820 ;
+        RECT 618.540 595.700 729.380 596.820 ;
+        RECT 730.540 595.700 841.380 596.820 ;
+        RECT 842.540 595.700 897.590 596.820 ;
+        RECT 16.860 4.300 897.590 595.700 ;
+        RECT 16.860 4.000 57.380 4.300 ;
+        RECT 58.540 4.000 169.380 4.300 ;
+        RECT 170.540 4.000 281.380 4.300 ;
+        RECT 282.540 4.000 393.380 4.300 ;
+        RECT 394.540 4.000 505.380 4.300 ;
+        RECT 506.540 4.000 617.380 4.300 ;
+        RECT 618.540 4.000 729.380 4.300 ;
+        RECT 730.540 4.000 841.380 4.300 ;
+        RECT 842.540 4.000 897.590 4.300 ;
+      LAYER MET3 ;
+        RECT 16.810 560.860 897.590 572.090 ;
         RECT 16.810 559.700 895.700 560.860 ;
-        RECT 16.810 486.380 898.150 559.700 ;
+        RECT 16.810 486.380 897.590 559.700 ;
         RECT 16.810 485.220 895.700 486.380 ;
-        RECT 16.810 411.900 898.150 485.220 ;
+        RECT 16.810 411.900 897.590 485.220 ;
         RECT 16.810 410.740 895.700 411.900 ;
-        RECT 16.810 337.420 898.150 410.740 ;
+        RECT 16.810 337.420 897.590 410.740 ;
         RECT 16.810 336.260 895.700 337.420 ;
-        RECT 16.810 262.940 898.150 336.260 ;
+        RECT 16.810 262.940 897.590 336.260 ;
         RECT 16.810 261.780 895.700 262.940 ;
-        RECT 16.810 188.460 898.150 261.780 ;
+        RECT 16.810 188.460 897.590 261.780 ;
         RECT 16.810 187.300 895.700 188.460 ;
-        RECT 16.810 113.980 898.150 187.300 ;
+        RECT 16.810 113.980 897.590 187.300 ;
         RECT 16.810 112.820 895.700 113.980 ;
-        RECT 16.810 39.500 898.150 112.820 ;
+        RECT 16.810 39.500 897.590 112.820 ;
         RECT 16.810 38.340 895.700 39.500 ;
-        RECT 16.810 24.460 898.150 38.340 ;
-      LAYER Metal4 ;
-        RECT 391.580 242.010 394.100 256.110 ;
+        RECT 16.810 24.460 897.590 38.340 ;
+      LAYER MET4 ;
+        RECT 391.020 247.050 400.420 359.990 ;
+        RECT 402.620 247.050 477.220 359.990 ;
+        RECT 479.420 247.050 554.020 359.990 ;
+        RECT 556.220 247.050 623.140 359.990 ;
   END
 END adder
 END LIBRARY
