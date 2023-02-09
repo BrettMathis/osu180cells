@@ -28,9 +28,9 @@ extract no capacitance
 extract no coupling
 extract no resistance
 extract no adjust
-#if { ! $::env(LVS_CONNECT_BY_LABEL) } {
-#    extract unique
-#}
+if { ! $::env(LVS_CONNECT_BY_LABEL) } {
+    extract unique
+}
 # extract warn all
 extract
 
