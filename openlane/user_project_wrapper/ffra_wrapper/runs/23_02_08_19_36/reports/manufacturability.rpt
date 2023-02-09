@@ -1,0 +1,16 @@
+Design Name: ffra_wrapper
+Run Directory: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36
+----------------------------------------
+
+Magic DRC Summary:
+Source: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/logs/signoff/ffra_wrapper.lvs.lef.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.

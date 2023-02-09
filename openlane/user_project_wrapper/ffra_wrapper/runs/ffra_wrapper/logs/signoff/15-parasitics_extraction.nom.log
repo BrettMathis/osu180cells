@@ -1,0 +1,47 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 14 technology layers
+[INFO ODB-0224]     Created 60 technology vias
+[INFO ODB-0225]     Created 49 library cells
+[INFO ODB-0226] Finished LEF file:  /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/ffra_wrapper.def
+[INFO ODB-0128] Design: ffra_wrapper
+[INFO ODB-0130]     Created 418 pins.
+[INFO ODB-0131]     Created 1 components and 28 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 2 connections.
+[INFO ODB-0133]     Created 416 nets and 2 connections.
+[INFO ODB-0134] Finished DEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/ffra_wrapper.def
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10161, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10844, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 11647, timing group from output port.
+Using RCX ruleset '/Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.tech/openlane/rules.openrcx.gf180mcuC.nom'...
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0008] extracting parasitics of ffra_wrapper ...
+[INFO RCX-0435] Reading extraction model file /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.tech/openlane/rules.openrcx.gf180mcuC.nom ...
+[INFO RCX-0436] RC segment generation ffra_wrapper (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 10 rc segments
+[INFO RCX-0439] Coupling Cap extraction ffra_wrapper ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0043] 155 wires to be extracted
+[INFO RCX-0442] 10% completion -- 17 wires have been extracted
+[INFO RCX-0442] 18% completion -- 29 wires have been extracted
+[INFO RCX-0442] 27% completion -- 42 wires have been extracted
+[INFO RCX-0442] 36% completion -- 56 wires have been extracted
+[INFO RCX-0442] 47% completion -- 74 wires have been extracted
+[INFO RCX-0442] 58% completion -- 91 wires have been extracted
+[INFO RCX-0442] 67% completion -- 104 wires have been extracted
+[INFO RCX-0442] 79% completion -- 123 wires have been extracted
+[INFO RCX-0442] 88% completion -- 137 wires have been extracted
+[INFO RCX-0442] 100% completion -- 155 wires have been extracted
+[INFO RCX-0045] Extract 416 nets, 12 rsegs, 12 caps, 1 ccs
+[INFO RCX-0015] Finished extracting ffra_wrapper.
+Writing result to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/mca/process_corner_nom/ffra_wrapper.spef...
+Setting global connections for newly added cells...
+[WARNING] Did not save OpenROAD database!
+Writing extracted parasitics to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/mca/process_corner_nom/ffra_wrapper.spef...
+[INFO RCX-0016] Writing SPEF ...
+[INFO RCX-0443] 416 nets finished
+[INFO RCX-0017] Finished writing SPEF ...

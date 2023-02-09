@@ -1,0 +1,26 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10161, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10844, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 11647, timing group from output port.
+[INFO ODB-0222] Reading LEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 14 technology layers
+[INFO ODB-0224]     Created 60 technology vias
+[INFO ODB-0225]     Created 49 library cells
+[INFO ODB-0226] Finished LEF file:  /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/tmp/merged.nom.lef
+Reading netlist...
+[WARNING STA-0200] /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/synthesis/ffra_wrapper.v line 40, instance mprj port a size 4 does not match net size 8.
+[WARNING STA-0200] /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/synthesis/ffra_wrapper.v line 40, instance mprj port b size 4 does not match net size 8.
+[WARNING STA-0200] /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/synthesis/ffra_wrapper.v line 40, instance mprj port ci size 8 does not match net size 16.
+[WARNING STA-0200] /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/synthesis/ffra_wrapper.v line 40, instance mprj port o size 8 does not match net size 16.
+[WARNING ORD-1011] LEF master ffra has no liberty cell.
+[INFO] Using the set CORE_AREA; ignoring core margin parameters
+[WARNING IFP-0028] Core area lower left (12.000, 12.000) snapped to (12.000, 12.300).
+[INFO IFP-0001] Added 480 rows of 29562 sites.
+[INFO IFP-0030] Inserted 0 tiecells using gf180mcu_osu_sc_gp9t3v3__tiel/Y.
+[INFO IFP-0030] Inserted 0 tiecells using gf180mcu_osu_sc_gp9t3v3__tieh/Y.
+[INFO] Extracting DIE_AREA and CORE_AREA from the floorplan
+[INFO] Floorplanned on a die area of 0.0 0.0 2980.2 2980.2 (microns). Saving to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/reports/floorplan/3-initial_fp_die_area.rpt.
+[INFO] Floorplanned on a core area of 12.0 12.3 2968.2 2964.3 (microns). Saving to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/reports/floorplan/3-initial_fp_core_area.rpt.
+[WARNING] Did not save OpenROAD database!

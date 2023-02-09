@@ -30,7 +30,7 @@
  */
 
 module user_project_wrapper #(
-    parameter WIDTH = 4
+    parameter BITS = 8
 )(
     `ifdef USE_POWER_PINS
         inout vdd,		// User area 5.0V supply
@@ -107,39 +107,18 @@ module user_project_wrapper #(
 );
 */
 
-instrumented_adder mprj (
+ffra mprj (
     `ifdef USE_POWER_PINS
-        .vdd(vdd),	
-        .vss(vss),
+        .vdd(vdd),	// User area 1 1.8V power
+        .vss(vss),	// User area 1 digital ground
     `endif
 
      .clk(wb_clk_i),
-     .reset(wb_rst_i),
-
-    // loop control
-    .stop_b(io_in[0]),                      // stops the ring oscillator (inverted)
-    .extra_inverter(io_in[1]),              // adds an extra inverter into the ring
-    .bypass_b(io_in[2]),                    // bypass the adder (inverted)
-    .control_b(io_in[3]),                   // enables an additional control loop (inverted)
-    .force_count(io_in[4]),                 // force counter even without the integration counter
-    .a_input_ext_bit_b(io_in[8:5]),     // which bit of the adder's a input to connect to external a_input (inverted)
-    .a_input_ring_bit_b(io_in[12:9]),    // which bit of the adder's a input to connect to the ring (inverted)
-    .s_output_bit_b(io_in[16:13]),        // which bit of sum to connect back to the ring (inverted)
-
-    // counter control
-    .counter_enable(io_in[17]),
-    .counter_load(io_in[18]),
-    .integration_time(wbs_dat_i[31:0]),
-    
-    // adder inputs
-    .a_input(io_in[22:19]),
-    .b_input(io_in[26:23]),
-
-    // outputs
-    .ring_osc_out(io_out[0]),               // used for spice sims
-    .sum_out(io_out[4:1]),              // output of the adder
-    .done(io_out[5]),                       // when the integration counter gets to zero
-    .ring_osc_counter_out(io_out[37:6])    // number of ring cycles / 2 counted
+     .rst(wb_rst_i), // unused, but amaranth still creates it
+     .a(io_in[7:0]),
+     .b(io_in[15:8]),
+     .ci(io_in[31:16]),
+     .o(io_out[15:0])
 );
 
 endmodule	// user_project_wrapper

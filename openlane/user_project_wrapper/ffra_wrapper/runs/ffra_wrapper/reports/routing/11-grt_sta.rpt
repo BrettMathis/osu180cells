@@ -1,0 +1,25 @@
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: wb_rst_i (input port clocked by user_clock2)
+Endpoint: mprj/rst (internal pin)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.22    0.15    2.15 ^ wb_rst_i (in)
+     1    0.03                           wb_rst_i (net)
+                  0.22    0.00    2.15 ^ mprj/rst (ffra)
+                                  2.15   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.

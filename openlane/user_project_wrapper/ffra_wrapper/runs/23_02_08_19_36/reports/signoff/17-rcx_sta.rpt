@@ -1,0 +1,25 @@
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: io_in[24] (input port clocked by user_clock2)
+Endpoint: mprj/ci[8] (internal pin)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  3.19    2.42    4.42 ^ io_in[24] (in)
+     1    0.50                           io_in[24] (net)
+                  3.26    0.00    4.42 ^ mprj/ci[8] (ffra)
+                                  4.42   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.

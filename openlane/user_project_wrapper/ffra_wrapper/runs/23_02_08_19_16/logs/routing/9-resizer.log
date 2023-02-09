@@ -1,0 +1,21 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_16/tmp/synthesis/resizer_gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10161, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_16/tmp/synthesis/resizer_gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10844, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_16/tmp/synthesis/resizer_gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 11647, timing group from output port.
+[INFO]: Setting signal min routing layer to: MET2 and clock min routing layer to MET2. 
+[INFO]: Setting signal max routing layer to: MET4 and clock max routing layer to MET4. 
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: MET2
+[INFO GRT-0021] Max routing layer: MET4
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer MET1    Track-Pitch = 0.5600  line-2-Via Pitch: 0.5450
+[INFO GRT-0088] Layer MET2    Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0088] Layer MET3    Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0088] Layer MET4    Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0019] Found 0 clock nets.
+[ERROR GRT-0029] Pin mprj/a[0] does not have geometries below the max routing layer (MET4).
+Error: resizer_routing_timing.tcl, 39 GRT-0029

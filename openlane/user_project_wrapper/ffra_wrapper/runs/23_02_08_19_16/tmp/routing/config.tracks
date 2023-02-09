@@ -1,0 +1,5 @@
+make_tracks MET1 -x_offset 0.28 -x_pitch 0.56 -y_offset 0.28 -y_pitch 0.56
+make_tracks MET2 -x_offset 0.28 -x_pitch 0.56 -y_offset 0.28 -y_pitch 0.56
+make_tracks MET3 -x_offset 0.28 -x_pitch 0.56 -y_offset 0.28 -y_pitch 0.56
+make_tracks MET4 -x_offset 0.28 -x_pitch 0.56 -y_offset 0.28 -y_pitch 0.56
+make_tracks MET5 -x_offset 0.45 -x_pitch 0.90 -y_offset 0.45 -y_pitch 0.90

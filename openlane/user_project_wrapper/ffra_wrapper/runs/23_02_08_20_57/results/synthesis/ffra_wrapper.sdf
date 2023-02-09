@@ -1,0 +1,23 @@
+(DELAYFILE
+ (SDFVERSION "3.0")
+ (DESIGN "ffra_wrapper")
+ (DATE "Thu Feb  9 02:57:07 2023")
+ (VENDOR "Parallax")
+ (PROGRAM "STA")
+ (VERSION "2.3.2")
+ (DIVIDER .)
+ (VOLTAGE 3.300::3.300)
+ (PROCESS "1.000::1.000")
+ (TEMPERATURE 25.000::25.000)
+ (TIMESCALE 1ns)
+ (CELL
+  (CELLTYPE "ffra_wrapper")
+  (INSTANCE)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT wb_clk_i mprj.clk (0.000:0.000:0.000))
+    (INTERCONNECT wb_rst_i mprj.rst (0.000:0.000:0.000))
+   )
+  )
+ )
+)

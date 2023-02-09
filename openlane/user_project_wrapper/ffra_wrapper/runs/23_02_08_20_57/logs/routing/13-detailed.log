@@ -1,0 +1,249 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10161, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10844, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 11647, timing group from output port.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO DRT-0149] Reading tech and libs.
+[WARNING DRT-0140] SpacingRange unsupported.
+[WARNING DRT-0140] SpacingRange unsupported.
+[WARNING DRT-0140] SpacingRange unsupported.
+[WARNING DRT-0140] SpacingRange unsupported.
+[WARNING DRT-0140] SpacingRange unsupported.
+
+Units:                2000
+Number of layers:     11
+Number of macros:     49
+Number of vias:       60
+Number of viarulegen: 18
+
+[INFO DRT-0150] Reading design.
+
+Design:                   ffra_wrapper
+Die area:                 ( 0 0 ) ( 5960400 5960400 )
+Number of track patterns: 10
+Number of DEF vias:       2
+Number of components:     1
+Number of terminals:      418
+Number of snets:          2
+Number of nets:           416
+
+[INFO DRT-0167] List of default vias:
+  Layer VIA12
+    default via: VIA12_HV
+  Layer VIA23
+    default via: VIA23_VH
+  Layer VIA34
+    default via: VIA34_HV
+  Layer VIA45
+    default via: VIA45_1_VH
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 1.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete POLY2.
+[INFO DRT-0024]   Complete CONT.
+[INFO DRT-0024]   Complete MET1.
+[INFO DRT-0024]   Complete VIA12.
+[INFO DRT-0024]   Complete MET2.
+[INFO DRT-0024]   Complete VIA23.
+[INFO DRT-0024]   Complete MET3.
+[INFO DRT-0024]   Complete VIA34.
+[INFO DRT-0024]   Complete MET4.
+[INFO DRT-0024]   Complete VIA45.
+[INFO DRT-0024]   Complete MET5.
+[INFO DRT-0033] POLY2 shape region query size = 0.
+[INFO DRT-0033] CONT shape region query size = 0.
+[INFO DRT-0033] MET1 shape region query size = 1.
+[INFO DRT-0033] VIA12 shape region query size = 0.
+[INFO DRT-0033] MET2 shape region query size = 368.
+[INFO DRT-0033] VIA23 shape region query size = 0.
+[INFO DRT-0033] MET3 shape region query size = 104.
+[INFO DRT-0033] VIA34 shape region query size = 0.
+[INFO DRT-0033] MET4 shape region query size = 2794.
+[INFO DRT-0033] VIA45 shape region query size = 41440.
+[INFO DRT-0033] MET5 shape region query size = 2766.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0078]   Complete 2 pins.
+[INFO DRT-0081]   Complete 0 unique inst patterns.
+[INFO DRT-0084]   Complete 0 groups.
+#scanned instances     = 1
+#unique  instances     = 1
+#stdCellGenAp          = 0
+#stdCellValidPlanarAp  = 0
+#stdCellValidViaAp     = 0
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 0
+#instTermValidViaApCnt = 0
+#macroGenAp            = 14
+#macroValidPlanarAp    = 14
+#macroValidViaAp       = 14
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 174.32 (MB), peak = 174.39 (MB)
+
+Number of guides:     12
+
+[INFO DRT-0169] Post process guides.
+[INFO DRT-0176] GCELLGRID X 0 DO 354 STEP 16800 ;
+[INFO DRT-0177] GCELLGRID Y 0 DO 354 STEP 16800 ;
+[INFO DRT-0028]   Complete POLY2.
+[INFO DRT-0028]   Complete CONT.
+[INFO DRT-0028]   Complete MET1.
+[INFO DRT-0028]   Complete VIA12.
+[INFO DRT-0028]   Complete MET2.
+[INFO DRT-0028]   Complete VIA23.
+[INFO DRT-0028]   Complete MET3.
+[INFO DRT-0028]   Complete VIA34.
+[INFO DRT-0028]   Complete MET4.
+[INFO DRT-0028]   Complete VIA45.
+[INFO DRT-0028]   Complete MET5.
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0035]   Complete POLY2 (guide).
+[INFO DRT-0035]   Complete CONT (guide).
+[INFO DRT-0035]   Complete MET1 (guide).
+[INFO DRT-0035]   Complete VIA12 (guide).
+[INFO DRT-0035]   Complete MET2 (guide).
+[INFO DRT-0035]   Complete VIA23 (guide).
+[INFO DRT-0035]   Complete MET3 (guide).
+[INFO DRT-0035]   Complete VIA34 (guide).
+[INFO DRT-0035]   Complete MET4 (guide).
+[INFO DRT-0035]   Complete VIA45 (guide).
+[INFO DRT-0035]   Complete MET5 (guide).
+[INFO DRT-0036] POLY2 guide region query size = 0.
+[INFO DRT-0036] CONT guide region query size = 0.
+[INFO DRT-0036] MET1 guide region query size = 0.
+[INFO DRT-0036] VIA12 guide region query size = 0.
+[INFO DRT-0036] MET2 guide region query size = 4.
+[INFO DRT-0036] VIA23 guide region query size = 0.
+[INFO DRT-0036] MET3 guide region query size = 2.
+[INFO DRT-0036] VIA34 guide region query size = 0.
+[INFO DRT-0036] MET4 guide region query size = 0.
+[INFO DRT-0036] VIA45 guide region query size = 0.
+[INFO DRT-0036] MET5 guide region query size = 0.
+[INFO DRT-0179] Init gr pin query.
+[INFO DRT-0245] skipped writing guide updates to database.
+[INFO DRT-0185] Post process initialize RPin region query.
+[INFO DRT-0181] Start track assignment.
+[INFO DRT-0184] Done with 4 vertical wires in 8 frboxes and 2 horizontal wires in 8 frboxes.
+[INFO DRT-0186] Done with 0 vertical wires in 8 frboxes and 0 horizontal wires in 8 frboxes.
+[INFO DRT-0182] Complete track assignment.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 175.43 (MB), peak = 175.82 (MB)
+[INFO DRT-0187] Start routing data preparation.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 179.43 (MB), peak = 179.53 (MB)
+[INFO DRT-0194] Start detail routing.
+[INFO DRT-0195] Start 0th optimization iteration.
+    Completing 10% with 0 violations.
+    elapsed time = 00:00:00, memory = 202.65 (MB).
+    Completing 20% with 0 violations.
+    elapsed time = 00:00:00, memory = 222.73 (MB).
+    Completing 30% with 1 violations.
+    elapsed time = 00:00:01, memory = 232.89 (MB).
+    Completing 40% with 1 violations.
+    elapsed time = 00:00:01, memory = 232.96 (MB).
+    Completing 50% with 1 violations.
+    elapsed time = 00:00:02, memory = 232.96 (MB).
+    Completing 60% with 1 violations.
+    elapsed time = 00:00:02, memory = 216.80 (MB).
+    Completing 70% with 1 violations.
+    elapsed time = 00:00:02, memory = 227.05 (MB).
+    Completing 80% with 1 violations.
+    elapsed time = 00:00:03, memory = 232.21 (MB).
+    Completing 90% with 1 violations.
+    elapsed time = 00:00:03, memory = 232.43 (MB).
+    Completing 100% with 1 violations.
+    elapsed time = 00:00:04, memory = 207.53 (MB).
+[INFO DRT-0199]   Number of violations = 1.
+Viol/Layer        MET2
+Metal Spacing        1
+[INFO DRT-0267] cpu time = 00:00:08, elapsed time = 00:00:04, memory = 207.16 (MB), peak = 488.34 (MB)
+Total wire length = 5784 um.
+Total wire length on LAYER MET1 = 0 um.
+Total wire length on LAYER MET2 = 3380 um.
+Total wire length on LAYER MET3 = 2404 um.
+Total wire length on LAYER MET4 = 0 um.
+Total wire length on LAYER MET5 = 0 um.
+Total number of vias = 4.
+Up-via summary (total 4):.
+
+-----------
+ POLY2    0
+  MET1    0
+  MET2    4
+  MET3    0
+  MET4    0
+-----------
+          4
+
+
+[INFO DRT-0195] Start 1st optimization iteration.
+    Completing 10% with 1 violations.
+    elapsed time = 00:00:00, memory = 217.73 (MB).
+    Completing 20% with 1 violations.
+    elapsed time = 00:00:00, memory = 227.27 (MB).
+    Completing 30% with 1 violations.
+    elapsed time = 00:00:01, memory = 211.39 (MB).
+    Completing 40% with 1 violations.
+    elapsed time = 00:00:01, memory = 221.18 (MB).
+    Completing 50% with 1 violations.
+    elapsed time = 00:00:02, memory = 230.46 (MB).
+    Completing 60% with 0 violations.
+    elapsed time = 00:00:02, memory = 231.75 (MB).
+    Completing 70% with 0 violations.
+    elapsed time = 00:00:02, memory = 231.75 (MB).
+    Completing 80% with 0 violations.
+    elapsed time = 00:00:03, memory = 211.28 (MB).
+    Completing 90% with 0 violations.
+    elapsed time = 00:00:03, memory = 221.25 (MB).
+    Completing 100% with 0 violations.
+    elapsed time = 00:00:04, memory = 207.16 (MB).
+[INFO DRT-0199]   Number of violations = 0.
+[INFO DRT-0267] cpu time = 00:00:08, elapsed time = 00:00:04, memory = 207.16 (MB), peak = 488.34 (MB)
+Total wire length = 5784 um.
+Total wire length on LAYER MET1 = 0 um.
+Total wire length on LAYER MET2 = 3380 um.
+Total wire length on LAYER MET3 = 2404 um.
+Total wire length on LAYER MET4 = 0 um.
+Total wire length on LAYER MET5 = 0 um.
+Total number of vias = 4.
+Up-via summary (total 4):.
+
+-----------
+ POLY2    0
+  MET1    0
+  MET2    4
+  MET3    0
+  MET4    0
+-----------
+          4
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 5784 um.
+Total wire length on LAYER MET1 = 0 um.
+Total wire length on LAYER MET2 = 3380 um.
+Total wire length on LAYER MET3 = 2404 um.
+Total wire length on LAYER MET4 = 0 um.
+Total wire length on LAYER MET5 = 0 um.
+Total number of vias = 4.
+Up-via summary (total 4):.
+
+-----------
+ POLY2    0
+  MET1    0
+  MET2    4
+  MET3    0
+  MET4    0
+-----------
+          4
+
+
+[INFO DRT-0267] cpu time = 00:00:16, elapsed time = 00:00:08, memory = 207.16 (MB), peak = 488.34 (MB)
+
+[INFO DRT-0180] Post processing.
+Setting global connections for newly added cells...
+Writing OpenROAD database to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/ffra_wrapper.odb...
+Writing netlist to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/ffra_wrapper.nl.v...
+Writing powered netlist to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/ffra_wrapper.pnl.v...
+Writing layout to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/ffra_wrapper.def...

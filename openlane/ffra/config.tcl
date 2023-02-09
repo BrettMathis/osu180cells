@@ -20,7 +20,7 @@ set ::env(DESIGN_NAME) ffra
 
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/designs/ffra/src/ffra.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/ffra.v"
 
 set ::env(DESIGN_IS_CORE) 0
 

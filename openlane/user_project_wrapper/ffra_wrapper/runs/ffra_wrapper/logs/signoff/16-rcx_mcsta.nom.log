@@ -1,0 +1,267 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10161, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10844, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 11647, timing group from output port.
+[WARNING STA-0053] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 1, library gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm already exists.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10161, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10844, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 11647, timing group from output port.
+[WARNING STA-0053] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 1, library gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm already exists.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10161, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 10844, timing group from output port.
+[WARNING STA-0164] /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib line 11647, timing group from output port.
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+======================= Fastest Corner ===================================
+
+No paths found.
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+======================= Fastest Corner ===================================
+
+No paths found.
+max_report_end
+check_report
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+
+======================= Slowest Corner ===================================
+
+Startpoint: wb_rst_i (input port clocked by user_clock2)
+Endpoint: mprj/rst (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: ss
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  2.21    1.66    3.66 ^ wb_rst_i (in)
+     1    0.34                           wb_rst_i (net)
+                  2.23    0.00    3.66 ^ mprj/rst (ffra)
+                                  3.66   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+======================= Typical Corner ===================================
+
+Startpoint: wb_rst_i (input port clocked by user_clock2)
+Endpoint: mprj/rst (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: tt
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  2.21    1.66    3.66 ^ wb_rst_i (in)
+     1    0.34                           wb_rst_i (net)
+                  2.23    0.00    3.66 ^ mprj/rst (ffra)
+                                  3.66   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+======================= Fastest Corner ===================================
+
+Startpoint: wb_rst_i (input port clocked by user_clock2)
+Endpoint: mprj/rst (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: ff
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  2.21    1.66    3.66 ^ wb_rst_i (in)
+     1    0.34                           wb_rst_i (net)
+                  2.23    0.00    3.66 ^ mprj/rst (ffra)
+                                  3.66   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+======================= Fastest Corner ===================================
+
+No paths found.
+check_report_end
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+======================= Slowest Corner ===================================
+
+
+======================= Typical Corner ===================================
+
+
+======================= Fastest Corner ===================================
+
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+worst_slack_end
+clock_skew
+
+===========================================================================
+ report_clock_skew
+============================================================================
+
+======================== Slowest Corner ==================================
+
+Clock user_clock2
+No launch/capture paths found.
+
+
+======================= Typical Corner ===================================
+
+Clock user_clock2
+No launch/capture paths found.
+
+
+======================= Fastest Corner ===================================
+
+Clock user_clock2
+No launch/capture paths found.
+
+clock_skew_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+
+
+======================= Slowest Corner =================================
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+                           0.0%       0.0%       0.0%
+
+======================= Typical Corner ===================================
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+                           0.0%       0.0%       0.0%
+
+
+======================= Fastest Corner =================================
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+                           0.0%       0.0%       0.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 540000 u^2 6% utilization.
+area_report_end
+Setting global connections for newly added cells...
+[WARNING] Did not save OpenROAD database!
+Writing SDF files for all corners...
+Writing SDF for the ff corner to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/mca/process_corner_nom/ffra_wrapper.ff.sdf...
+Writing SDF for the ss corner to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/mca/process_corner_nom/ffra_wrapper.ss.sdf...
+Writing SDF for the tt corner to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/mca/process_corner_nom/ffra_wrapper.tt.sdf...
+Writing timing models for all corners...
+Writing timing models for the ff corner to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/mca/process_corner_nom/ffra_wrapper.ff.lib...
+Writing timing models for the ss corner to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/mca/process_corner_nom/ffra_wrapper.ss.lib...
+Writing timing models for the tt corner to /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_20_57/results/routing/mca/process_corner_nom/ffra_wrapper.tt.lib...

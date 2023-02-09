@@ -1,0 +1,39 @@
+Netgen 1.5.242 compiled on Thu Nov 17 18:11:09 UTC 2022
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Generating JSON file result
+Reading netlist file /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/results/signoff/ffra_wrapper.spice
+Reading netlist file /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/signoff/19-ffra_wrapper.pnl.v
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Creating placeholder cell definition for module ffra.
+Reading setup file /Users/lrburle/OneDrive/PhD/projects/osu180cells/dependencies/pdks/gf180mcuC/libs.tech/netgen/gf180mcuC_setup.tcl
+Comparison output logged to file /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/logs/signoff/22-ffra_wrapper.lef.lvs.log
+Logging to file "/Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/logs/signoff/22-ffra_wrapper.lef.lvs.log" enabled
+
+Contents of circuit 1:  Circuit: 'ffra'
+Circuit ffra contains 0 device instances.
+Circuit contains 0 nets, and 52 disconnected pins.
+Contents of circuit 2:  Circuit: 'ffra'
+Circuit ffra contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit ffra contains no devices.
+
+Contents of circuit 1:  Circuit: 'ffra_wrapper'
+Circuit ffra_wrapper contains 1 device instances.
+  Class: ffra                  instances:   1
+Circuit contains 52 nets, and 366 disconnected pins.
+Contents of circuit 2:  Circuit: 'ffra_wrapper'
+Circuit ffra_wrapper contains 1 device instances.
+  Class: ffra                  instances:   1
+Circuit contains 52 nets, and 366 disconnected pins.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 52 nets,    Circuit 2 contains 52 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "/Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/logs/signoff/22-ffra_wrapper.lef.lvs.log" disabled
+LVS Done.

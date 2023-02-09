@@ -1,0 +1,31 @@
+- status: 0 - openlane design prep
+  runtime_s: 1.23
+  runtime_ts: 0h0m1s229ms
+- status: 1 - synthesis - yosys
+  runtime_s: 0.78
+  runtime_ts: 0h0m0s781ms
+- status: 2 - sta - openroad
+  runtime_s: 0.29
+  runtime_ts: 0h0m0s295ms
+- status: 3 - floorplan initialization - openroad
+  runtime_s: 1.35
+  runtime_ts: 0h0m1s355ms
+- status: 4 - io_place - openlane
+  runtime_s: 0.89
+  runtime_ts: 0h0m0s889ms
+- status: 6 - pdn generation - openroad
+  runtime_s: 0.79
+  runtime_ts: 0h0m0s792ms
+- status: 7 - random global placement - openlane
+  runtime_s: 0.9
+  runtime_ts: 0h0m0s902ms
+- status: 8 - detailed placement - openroad
+  runtime_s: 1.32
+  runtime_ts: 0h0m1s320ms
+---
+- status: routed
+  runtime_s: -1
+  runtime_ts: '-1'
+- status: flow failed
+  runtime_s: 11.0
+  runtime_ts: 0h0m11s0ms

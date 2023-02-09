@@ -1,0 +1,16 @@
+[ERROR]: during executing openroad script /openlane/scripts/openroad/resizer_routing_timing.tcl
+[ERROR]: Log: ../Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_16/logs/routing/9-resizer.log
+[ERROR]: Last 10 lines:
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer MET1    Track-Pitch = 0.5600  line-2-Via Pitch: 0.5450
+[INFO GRT-0088] Layer MET2    Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0088] Layer MET3    Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0088] Layer MET4    Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0019] Found 0 clock nets.
+[ERROR GRT-0029] Pin mprj/a[0] does not have geometries below the max routing layer (MET4).
+Error: resizer_routing_timing.tcl, 39 GRT-0029
+child process exited abnormally
+
+[ERROR]: Creating issue reproducible...
+[ERROR]: Flow failed.

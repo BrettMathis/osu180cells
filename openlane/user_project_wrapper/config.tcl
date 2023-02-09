@@ -23,7 +23,7 @@ set ::env(STD_CELL_LIBRARY) "gf180mcu_osu_sc_gp9t3v3"
 # YOU CAN CHANGE ANY VARIABLES DEFINED IN THE DEFAULT WRAPPER CFGS BY OVERRIDING THEM IN THIS CONFIG.TCL
 source $::env(DESIGN_DIR)/fixed_dont_change/default_wrapper_cfgs.tcl
 
-set ::env(DESIGN_NAME) user_project_wrapper
+set ::env(DESIGN_NAME) user_project_wrapper 
 #section end
 
 # User Configurations
@@ -50,13 +50,13 @@ set ::env(MACRO_PLACEMENT_CFG) $::env(DESIGN_DIR)/macro.cfg
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/designs/instrumented_adder/src/instrumented_adder.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/ffra.v"
 
 set ::env(EXTRA_LEFS) "\
-	$::env(DESIGN_DIR)/../../lef/instrumented_adder.lef"
+	$::env(DESIGN_DIR)/../../lef/ffra.lef"
 
 set ::env(EXTRA_GDS_FILES) "\
-	$::env(DESIGN_DIR)/../../gds/instrumented_adder.gds"
+	$::env(DESIGN_DIR)/../../gds/ffra.gds"
 
 set ::env(RT_MAX_LAYER) {MET4}
 

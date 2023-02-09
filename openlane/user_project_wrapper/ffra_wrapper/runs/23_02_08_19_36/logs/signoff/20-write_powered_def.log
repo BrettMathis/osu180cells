@@ -1,0 +1,51 @@
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 14 technology layers
+[INFO ODB-0224]     Created 60 technology vias
+[INFO ODB-0225]     Created 49 library cells
+[INFO ODB-0226] Finished LEF file:  /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/results/routing/ffra_wrapper.def
+[INFO ODB-0128] Design: ffra_wrapper
+[INFO ODB-0130]     Created 418 pins.
+[INFO ODB-0131]     Created 1 components and 52 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 2 connections.
+[INFO ODB-0133]     Created 416 nets and 50 connections.
+[INFO ODB-0134] Finished DEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/results/routing/ffra_wrapper.def
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+warning: `//.tclsh-history' is not writable.
+[?1034hopenroad> 
+openroad>         read_lef /Users/lrburle/Library/CloudStorage/OneDrive-Personal /PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/merged.n om.lef
+[INFO ODB-0222] Reading LEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 14 technology layers
+[INFO ODB-0224]     Created 60 technology vias
+[INFO ODB-0225]     Created 49 library cells
+[INFO ODB-0226] Finished LEF file:  /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/merged.nom.lef
+openroad>         read_verilog /Users/lrburle/Library/CloudStorage/OneDrive-Pers onal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/synt hesis/pg_define.v
+openroad>         link_design ffra_wrapper
+[WARNING ORD-1011] LEF master ffra has no liberty cell.
+openroad>         write_def /Users/lrburle/Library/CloudStorage/OneDrive-Persona l/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/synthes is/pg_define.intermediate.def
+openroad>         exit
+unable to write history to `//.tclsh-history'
+
+[INFO ODB-0222] Reading LEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 14 technology layers
+[INFO ODB-0224]     Created 60 technology vias
+[INFO ODB-0225]     Created 49 library cells
+[INFO ODB-0226] Finished LEF file:  /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/synthesis/pg_define.intermediate.def
+[INFO ODB-0128] Design: ffra_wrapper
+[INFO ODB-0130]     Created 419 pins.
+[INFO ODB-0131]     Created 1 components and 52 component-terminals.
+[INFO ODB-0133]     Created 419 nets and 52 connections.
+[INFO ODB-0134] Finished DEF file: /Users/lrburle/Library/CloudStorage/OneDrive-Personal/PhD/projects/osu180cells/openlane/ffra_wrapper/runs/23_02_08_19_36/tmp/synthesis/pg_define.intermediate.def
+Top-level design name: ffra_wrapper
+Found default power net 'vdd'
+Found default ground net 'vss'
+Found 1 power ports.
+Found 1 ground ports.
+Modified power connections of 1/1 cells.
+Connected vss to mprj/vss.
