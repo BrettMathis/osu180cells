@@ -28,36 +28,36 @@ library (ffra) {
   type ("a") {
     base_type : array;
     data_type : bit;
-    bit_width : 4;
-    bit_from : 3;
+    bit_width : 8;
+    bit_from : 7;
     bit_to : 0;
   }
   type ("b") {
     base_type : array;
     data_type : bit;
-    bit_width : 4;
-    bit_from : 3;
+    bit_width : 8;
+    bit_from : 7;
     bit_to : 0;
   }
   type ("ci") {
     base_type : array;
     data_type : bit;
-    bit_width : 8;
-    bit_from : 7;
+    bit_width : 16;
+    bit_from : 15;
     bit_to : 0;
   }
   type ("o") {
     base_type : array;
     data_type : bit;
-    bit_width : 8;
-    bit_from : 7;
+    bit_width : 16;
+    bit_from : 15;
     bit_to : 0;
   }
 
   cell ("ffra") {
     pin("clk") {
       direction : input;
-      capacitance : 0.0062;
+      capacitance : 0.0063;
     }
     pin("rst") {
       direction : input;
@@ -75,38 +75,70 @@ library (ffra) {
       bus_type : a;
       direction : input;
       capacitance : 0.0000;
+    pin("a[7]") {
+      direction : input;
+      capacitance : 0.0045;
+    }
+    pin("a[6]") {
+      direction : input;
+      capacitance : 0.0046;
+    }
+    pin("a[5]") {
+      direction : input;
+      capacitance : 0.0049;
+    }
+    pin("a[4]") {
+      direction : input;
+      capacitance : 0.0050;
+    }
     pin("a[3]") {
       direction : input;
-      capacitance : 0.0044;
+      capacitance : 0.0048;
     }
     pin("a[2]") {
       direction : input;
-      capacitance : 0.0049;
+      capacitance : 0.0048;
     }
     pin("a[1]") {
       direction : input;
-      capacitance : 0.0049;
+      capacitance : 0.0045;
     }
     pin("a[0]") {
       direction : input;
-      capacitance : 0.0044;
+      capacitance : 0.0046;
     }
     }
     bus("b") {
       bus_type : b;
       direction : input;
       capacitance : 0.0000;
-    pin("b[3]") {
+    pin("b[7]") {
       direction : input;
-      capacitance : 0.0045;
+      capacitance : 0.0046;
     }
-    pin("b[2]") {
+    pin("b[6]") {
+      direction : input;
+      capacitance : 0.0047;
+    }
+    pin("b[5]") {
+      direction : input;
+      capacitance : 0.0047;
+    }
+    pin("b[4]") {
       direction : input;
       capacitance : 0.0048;
     }
+    pin("b[3]") {
+      direction : input;
+      capacitance : 0.0049;
+    }
+    pin("b[2]") {
+      direction : input;
+      capacitance : 0.0049;
+    }
     pin("b[1]") {
       direction : input;
-      capacitance : 0.0050;
+      capacitance : 0.0044;
     }
     pin("b[0]") {
       direction : input;
@@ -117,13 +149,45 @@ library (ffra) {
       bus_type : ci;
       direction : input;
       capacitance : 0.0000;
+    pin("ci[15]") {
+      direction : input;
+      capacitance : 0.0064;
+    }
+    pin("ci[14]") {
+      direction : input;
+      capacitance : 0.0063;
+    }
+    pin("ci[13]") {
+      direction : input;
+      capacitance : 0.0063;
+    }
+    pin("ci[12]") {
+      direction : input;
+      capacitance : 0.0063;
+    }
+    pin("ci[11]") {
+      direction : input;
+      capacitance : 0.0063;
+    }
+    pin("ci[10]") {
+      direction : input;
+      capacitance : 0.0063;
+    }
+    pin("ci[9]") {
+      direction : input;
+      capacitance : 0.0063;
+    }
+    pin("ci[8]") {
+      direction : input;
+      capacitance : 0.0063;
+    }
     pin("ci[7]") {
       direction : input;
       capacitance : 0.0063;
     }
     pin("ci[6]") {
       direction : input;
-      capacitance : 0.0063;
+      capacitance : 0.0062;
     }
     pin("ci[5]") {
       direction : input;
@@ -154,6 +218,38 @@ library (ffra) {
       bus_type : o;
       direction : output;
       capacitance : 0.0000;
+    pin("o[15]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[14]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[13]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[12]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[11]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[10]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[9]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
+    pin("o[8]") {
+      direction : output;
+      capacitance : 0.0729;
+    }
     pin("o[7]") {
       direction : output;
       capacitance : 0.0729;
