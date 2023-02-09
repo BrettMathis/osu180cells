@@ -10,7 +10,7 @@ Thanks to Teo, Eric, Thomas and the Zero to ASIC course community
 `default_nettype none
 `timescale 1ns/1ns
 
-module instrumented_adder (
+module instrumented_adder #(parameter WIDTH = 8)(
     input wire clk,                         // clocks the time counter
     input wire reset,                       // resets the counters
 
@@ -212,7 +212,7 @@ module inv_with_delay(input wire A, output wire Y);
     `elsif FORMAL_COMPAT
     assign #1 Y = ~A;
     `else
-    sky130_fd_sc_hd__inv_2 _0_ ( .A(A), .Y(Y));
+    gf180mcu_osu_sc_gp9t3v3__inv_2 _0_ (.A(A), .Y(Y));
     `endif
 endmodule
 
@@ -227,7 +227,7 @@ module tristate(input wire A, output wire Z, input wire TE_B);
     `elsif FORMAL_COMPAT
     assign Z = !TE_B ? A : 1'bz;
     `else
-    sky130_fd_sc_hd__ebufn_4 _0_ ( .A(A), .Z(Z), .TE_B(TE_B));
+    gf180mcu_osu_sc_gp9t3v3__tbuf_1 _0_ ( .A(A), .Y(Z), .EN(TE_B));
     `endif
 endmodule
 
@@ -266,4 +266,31 @@ module behavioral(
     `else
     assign sum = a_in + b_in;
     `endif
+endmodule
+
+module gf180mcu_osu_sc_gp9t3v3__inv_2 (Y, A);
+	output Y;
+	input A;
+
+	// Function
+	not (Y, A);
+
+	// Timing
+	specify
+		(A => Y) = 0;
+	endspecify
+endmodule
+
+module gf180mcu_osu_sc_gp9t3v3__tbuf_1 (Y, A, EN);
+	output Y;
+	input A, EN;
+
+	// Function
+	bufif1 (Y, A, EN);
+
+	// Timing
+	specify
+		(A => Y) = 0;
+		(EN => Y) = 0;
+	endspecify
 endmodule

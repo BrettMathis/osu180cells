@@ -20,7 +20,7 @@ set ::env(DESIGN_NAME) instrumented_adder
 
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$::env(DESIGN_DIR)/../../verilog/rtl/designs/ffra/src/ffra.v"
+	$::env(DESIGN_DIR)/../../verilog/rtl/designs/instrumented_adder/src/instrumented_adder.v"
 
 set ::env(DESIGN_IS_CORE) 0
 
@@ -48,7 +48,7 @@ set ::env(SYNTH_MAX_FANOUT) 4
 set ::env(RT_MAX_LAYER) {MET4}
 
 # You can draw more power domains if you need to 
-set ::env(VDD_NETS) [list {vdd, vddh}]
+set ::env(VDD_NETS) [list {vdd}]
 set ::env(GND_NETS) [list {vss}]
 
 set ::env(DIODE_INSERTION_STRATEGY) 4 
