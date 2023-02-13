@@ -65,15 +65,15 @@ set ::env(RCX_RULES) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/openlane/rcx_rules.
 
 # Floorplanning
 ## Layer Info
-set ::env(FP_IO_HLAYER) "MET3"
-set ::env(FP_IO_VLAYER) "MET2"
-set ::env(FP_PDN_RAILS_LAYER) "MET1"
-set ::env(FP_PDN_LOWER_LAYER) "MET4"
-set ::env(FP_PDN_UPPER_LAYER) "MET5"
-set ::env(MACRO_BLOCKAGES_LAYER) "MET1 MET2 MET3 MET4 MET5"
-set ::env(WIRE_RC_LAYER) "MET2"
-set ::env(DATA_WIRE_RC_LAYER) "MET2"
-set ::env(CLOCK_WIRE_RC_LAYER) "MET4"
+set ::env(FP_IO_HLAYER) "Metal3"
+set ::env(FP_IO_VLAYER) "Metal2"
+set ::env(FP_PDN_RAILS_LAYER) "Metal1"
+set ::env(FP_PDN_LOWER_LAYER) "Metal4"
+set ::env(FP_PDN_UPPER_LAYER) "Metal5"
+set ::env(MACRO_BLOCKAGES_LAYER) "Metal1 Metal2 Metal3 Metal4 Metal5"
+set ::env(WIRE_RC_LAYER) "Metal2"
+set ::env(DATA_WIRE_RC_LAYER) "Metal2"
+set ::env(CLOCK_WIRE_RC_LAYER) "Metal4"
 
 ## Tap Cell Dist
 set ::env(FP_TAPCELL_DIST) 20
@@ -105,10 +105,10 @@ set ::env(RCX_RULES_MIN) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/openlane/rules.
 set ::env(RCX_RULES_MAX) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/openlane/rules.openrcx.$::env(PDK).max"
 
 # Routing
-set ::env(METAL_LAYER_NAMES) "MET1 MET2 MET3 MET4 MET5"
-set ::env(RT_MIN_LAYER) "MET2"
-set ::env(RT_MAX_LAYER) "MET5"
-set ::env(DRT_MIN_LAYER) "MET1"
+set ::env(METAL_LAYER_NAMES) "Metal1 Metal2 Metal3 Metal4 Metal5"
+set ::env(RT_MIN_LAYER) "Metal2"
+set ::env(RT_MAX_LAYER) "Metal5"
+set ::env(DRT_MIN_LAYER) "Metal1"
 set ::env(GRT_LAYER_ADJUSTMENTS) "0,0,0,0,0"
 
 ## Tracks info

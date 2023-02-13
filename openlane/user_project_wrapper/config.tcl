@@ -58,7 +58,7 @@ set ::env(EXTRA_LEFS) "\
 set ::env(EXTRA_GDS_FILES) "\
 	$::env(DESIGN_DIR)/../../gds/ffra.gds"
 
-set ::env(RT_MAX_LAYER) {MET4}
+set ::env(RT_MAX_LAYER) {Metal4}
 
 # disable pdn check nodes becuase it hangs with multiple power domains.
 # any issue with pdn connections will be flagged with LVS so it is not a critical check.
