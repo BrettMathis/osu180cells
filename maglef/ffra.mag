@@ -1,7 +1,7 @@
 magic
 tech gf180mcuC
 magscale 1 5
-timestamp 1675959510
+timestamp 1676400586
 << obsm1 >>
 rect 120 2430 89880 57225
 << metal2 >>
@@ -265,7 +265,7 @@ string FIXED_BBOX 0 0 90000 60000
 string LEFclass BLOCK
 string LEFview TRUE
 string GDS_END 5207252
-string GDS_FILE /home/lrburle/OSU/osu180cells/openlane/ffra/runs/23_02_09_10_17/results/signoff/ffra.magic.gds
+string GDS_FILE /home/lrburle/OSU/osu180cells/openlane/ffra/runs/23_02_14_12_48/results/signoff/ffra.magic.gds
 string GDS_START 109358
 << end >>
 

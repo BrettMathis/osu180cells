@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cp gf180mcu_osu_sc_gp9t3v3.gds ../dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/gds/
+cp gf180mcu_osu_sc_gp9t3v3.lef ../dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/lef/
+cp gf180mcu_osu_sc_gp9t3v3.spice ../dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/spice/
+cp gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs.v ../dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/verilog/
+cp gf180mcu_osu_sc_gp9t3v3_TT_25C.nldm.lib ../dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/
+cp gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs.lib ../dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/liberty/
+cp gf180mcu_osu_sc_gp9t3v3.tlef ../dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/techlef/
+cp *.mag ../dependencies/pdks/gf180mcuC/libs.ref/gf180mcu_osu_sc_gp9t3v3/mag/
